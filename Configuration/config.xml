@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+
+    <!--timeout-->
+    <TimeOut>5</TimeOut>
+    <!--sleep-->
+    <sleep>1500</sleep>
+
+
+    <!--Web Credentials-->
+    <!--Registration info-->
+    <UserFirst>ron</UserFirst>
+    <UserLast>sarid</UserLast>
+    <E_mail>wzeo@dvlhx.com</E_mail>
+    <PassWord>123456</PassWord>
+    <!--Billing info-->
+    <Country>Israel</Country>
+    <City>Rehovot</City>
+    <Address>abcAdrs</Address>
+    <Zip>142536</Zip>
+    <Phone>123123</Phone>
+    <!--Credit Card Info-->
+    <CardType>Visa</CardType>
+    <CardNo>4580624132025641</CardNo>
+    <ExpMonth>04</ExpMonth>
+    <ExpYear>2021</ExpYear>
+    <CVV>123</CVV>
+    <!--Payments-->
+    <CorrectAmount>50</CorrectAmount>
+    <HighAmount>0.1</HighAmount>
+    <LowAmount>101</LowAmount>
+    <!--Page Verifications-->
+    <Page_Digital>Digital downloads</Page_Digital>
+    <Page_IfYouWait>If You Wait (donation)</Page_IfYouWait>
+    <Page_ShopCart>Shopping cart</Page_ShopCart>
+    <Page_CheckOut>Checkout</Page_CheckOut>
+    <!--Asserts Specs-->
+    <Order_Complete>Your order has been successfully processed!</Order_Complete>
+    <Verify_Reg>Log out</Verify_Reg>
+    <Verify_txt_CCimg>Pay by cheque or money order</Verify_txt_CCimg>
+
+    <!--Mobile Credentials-->
+    <Mobile_Amount>1000</Mobile_Amount>
+    <Mobile_Term>3</Mobile_Term>
+    <Mobile_Rate>4</Mobile_Rate>
+    <Mobile_Expct>£30.03</Mobile_Expct>
+
+    <!--Api Credentials-->
+    <!--api path-->
+    <Path_get>/api/teams/search</Path_get>
+    <Path_post>/api/teams</Path_post>
+    <Path_others>/api/teams/</Path_others>
+    <!--api Test Credentials-->
+    <api_user>admin</api_user>
+    <api_Password>admin</api_Password>
+    <api_Team_id>15</api_Team_id>
+    <api_Team1>ron Team</api_Team1>
+    <api_Team2Name>RonA-Team</api_Team2Name>
+    <api_Team2Email>A-Team@ron.com</api_Team2Email>
+    <api_Team2EmailNew>New-and-better_A-Team@gmail.com</api_Team2EmailNew>
+
+    <!--DB Quarry-->
+    <Cred_login_quarry>SELECT FirstName, LastName, Email, Password FROM Credentials WHERE id='1'</Cred_login_quarry>
+    <Donation_quarry>SELECT CorrectAmount, BoundaryAmount, LowAmount, HighAmount FROM Donations WHERE id='1'</Donation_quarry>
+    <Cred_CheckOut_quarry>SELECT Country, City, Address, Zip, Phone FROM Credentials WHERE id='1'</Cred_CheckOut_quarry>
+
+    <!--web-->
+    <BrowserName>Chrome</BrowserName>
+    <url>https://demo.nopcommerce.com/</url>
+    <ImageRepo>./imageRepository/</ImageRepo>
+
+    <!--mobile-->
+    <UDID>4a797628</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+    <Appium_Server>http://127.0.0.1:4723</Appium_Server>
+
+    <!--api-->
+    <url_api>http://localhost:3000</url_api>
+
+    <!--electron-->
+    <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
+    <electronAppPath>C:/Automation/electron-api-demos/Electron API Demos-win32-ia32/Electron API Demos.exe</electronAppPath>
+
+    <!--desktop-->
+    <calculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</calculatorApp>
+
+    <!--DB-->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/B59zvlklEK</dbURL>
+    <dbuser>B59zvlklEK</dbuser>
+    <dbpass>MiNWjovudL</dbpass>
+</Enviroment>

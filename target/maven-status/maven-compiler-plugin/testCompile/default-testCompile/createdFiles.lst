@@ -1,0 +1,4 @@
+SanityTests\ApiTest.class
+ErrorHandlingTests\WebEHTest.class
+SanityTests\WebProjectTests.class
+SanityTests\WebProjectDB.class

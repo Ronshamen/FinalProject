@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66225" started-at="2020-08-16T13:06:40Z" finished-at="2020-08-16T13:07:46Z">
+    <groups>
+    </groups>
+    <test name="Web Test with DB" duration-ms="66225" started-at="2020-08-16T13:06:40Z" finished-at="2020-08-16T13:07:46Z">
+      <class name="SanityTests.WebProjectDB">
+        <test-method status="PASS" signature="StartSession(java.lang.String)[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="StartSession" is-config="true" duration-ms="12791" started-at="2020-08-16T13:06:40Z" finished-at="2020-08-16T13:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method status="PASS" signature="test01_RegisterWithDB()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="test01_RegisterWithDB" duration-ms="13047" started-at="2020-08-16T13:06:53Z" description="Test01: Register to WebSite with DB" finished-at="2020-08-16T13:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_RegisterWithDB -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="ReturnMainPage" is-config="true" duration-ms="1759" started-at="2020-08-16T13:07:06Z" finished-at="2020-08-16T13:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnMainPage -->
+        <test-method status="PASS" signature="test02_makeDonationWithDB()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="test02_makeDonationWithDB" duration-ms="17037" started-at="2020-08-16T13:07:08Z" description="Test02: Make donation using sums from DB" finished-at="2020-08-16T13:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_makeDonationWithDB -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="ReturnMainPage" is-config="true" duration-ms="2241" started-at="2020-08-16T13:07:25Z" finished-at="2020-08-16T13:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnMainPage -->
+        <test-method status="PASS" signature="test03_CheckOut()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="test03_CheckOut" duration-ms="15296" started-at="2020-08-16T13:07:27Z" description="Test03: Check Out using DB" finished-at="2020-08-16T13:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_CheckOut -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="ReturnMainPage" is-config="true" duration-ms="785" started-at="2020-08-16T13:07:42Z" finished-at="2020-08-16T13:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnMainPage -->
+        <test-method status="PASS" signature="test04_verify_logo()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="test04_verify_logo" duration-ms="1528" started-at="2020-08-16T13:07:43Z" description="Test04: Verify Logo" finished-at="2020-08-16T13:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_verify_logo -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="ReturnMainPage" is-config="true" duration-ms="718" started-at="2020-08-16T13:07:45Z" finished-at="2020-08-16T13:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnMainPage -->
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:SanityTests.WebProjectDB@63c5efee]" name="CloseSession" is-config="true" duration-ms="650" started-at="2020-08-16T13:07:45Z" finished-at="2020-08-16T13:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseSession -->
+      </class> <!-- SanityTests.WebProjectDB -->
+    </test> <!-- Web Test with DB -->
+  </suite> <!-- Suite -->
+</testng-results>

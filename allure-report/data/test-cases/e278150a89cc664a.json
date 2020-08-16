@@ -1,0 +1,338 @@
+{
+  "uid" : "e278150a89cc664a",
+  "name" : "Test04: Verify Logo",
+  "fullName" : "SanityTests.WebProjectDB.test04_verify_logo",
+  "historyId" : "5195d750adb152de891c7643a66b2ea",
+  "time" : {
+    "start" : 1597583263645,
+    "stop" : 1597583265173,
+    "duration" : 1528
+  },
+  "description" : "Description: Verify Logo is the same in all versions",
+  "descriptionHtml" : "<p>Description: Verify Logo is the same in all versions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1597583200449,
+      "stop" : 1597583213166,
+      "duration" : 12717
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Description: Verify Logo is the same in all versions",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify element visually",
+      "time" : {
+        "start" : 1597583263677,
+        "stop" : 1597583265172,
+        "duration" : 1495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ImageElement",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (eb59bfeace34c4d8d4d778f60b5489d6)] -> css selector: img[src='https://demo.nopcommerce.com/Themes/DefaultClean/Content/images/logo.png']]"
+      }, {
+        "name" : "ExpectedImageName",
+        "value" : "nopCommerceLogo_V01"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ReturnMainPage",
+    "time" : {
+      "start" : 1597583265175,
+      "stop" : 1597583265894,
+      "duration" : 719
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1597583265896,
+      "stop" : 1597583266545,
+      "duration" : 649
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_verify_logo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test with DB"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PRBCB84"
+  }, {
+    "name" : "thread",
+    "value" : "16084@DESKTOP-PRBCB84.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 28,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "9af0b10336d01f9e",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/9af0b10336d01f9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597576508349,
+          "stop" : 1597576509943,
+          "duration" : 1594
+        }
+      }, {
+        "uid" : "1654e84202cc4238",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/1654e84202cc4238",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597576343003,
+          "stop" : 1597576344538,
+          "duration" : 1535
+        }
+      }, {
+        "uid" : "dfbe658062747716",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/dfbe658062747716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597576087769,
+          "stop" : 1597576089215,
+          "duration" : 1446
+        }
+      }, {
+        "uid" : "ea70bdb93b07e07d",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/ea70bdb93b07e07d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597575948796,
+          "stop" : 1597575950330,
+          "duration" : 1534
+        }
+      }, {
+        "uid" : "e8bbf067b2577539",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/e8bbf067b2577539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597575706258,
+          "stop" : 1597575707871,
+          "duration" : 1613
+        }
+      }, {
+        "uid" : "24287d26694a03d7",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/24287d26694a03d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597572521155,
+          "stop" : 1597572522559,
+          "duration" : 1404
+        }
+      }, {
+        "uid" : "17571bd7fd59b210",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/17571bd7fd59b210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597572352458,
+          "stop" : 1597572354005,
+          "duration" : 1547
+        }
+      }, {
+        "uid" : "573bbee8c81910bd",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/573bbee8c81910bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597571870052,
+          "stop" : 1597571871674,
+          "duration" : 1622
+        }
+      }, {
+        "uid" : "1e5f188491f0a034",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/1e5f188491f0a034",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597571870052,
+          "stop" : 1597571871674,
+          "duration" : 1622
+        }
+      }, {
+        "uid" : "1ded140fb3150187",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/1ded140fb3150187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597542466593,
+          "stop" : 1597542467526,
+          "duration" : 933
+        }
+      }, {
+        "uid" : "22bb797eb7423a19",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/22bb797eb7423a19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597541986451,
+          "stop" : 1597541987263,
+          "duration" : 812
+        }
+      }, {
+        "uid" : "15bb22622c221a9c",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/15bb22622c221a9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597541709999,
+          "stop" : 1597541710818,
+          "duration" : 819
+        }
+      }, {
+        "uid" : "544f9e03149037aa",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/544f9e03149037aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597540986807,
+          "stop" : 1597540987610,
+          "duration" : 803
+        }
+      }, {
+        "uid" : "714bab2a2a30779c",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/714bab2a2a30779c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597540315858,
+          "stop" : 1597540316706,
+          "duration" : 848
+        }
+      }, {
+        "uid" : "9114e5e4e858bc5f",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/9114e5e4e858bc5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539961064,
+          "stop" : 1597539961997,
+          "duration" : 933
+        }
+      }, {
+        "uid" : "70624c268637d1c4",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/70624c268637d1c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539851376,
+          "stop" : 1597539852268,
+          "duration" : 892
+        }
+      }, {
+        "uid" : "ff82097e2691354b",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/ff82097e2691354b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539141867,
+          "stop" : 1597539143535,
+          "duration" : 1668
+        }
+      }, {
+        "uid" : "450b4bbcbc6e8088",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/450b4bbcbc6e8088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597340189302,
+          "stop" : 1597340190847,
+          "duration" : 1545
+        }
+      }, {
+        "uid" : "1fb93ebe2c93a316",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/1fb93ebe2c93a316",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597003446873,
+          "stop" : 1597003448449,
+          "duration" : 1576
+        }
+      }, {
+        "uid" : "519973e46cd4b537",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/23/allure/#testresult/519973e46cd4b537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597000257449,
+          "stop" : 1597000258885,
+          "duration" : 1436
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e278150a89cc664a.json",
+  "parameterValues" : [ "web" ]
+}

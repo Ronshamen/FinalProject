@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Web Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Web Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 16 16:03:13 IDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104247 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SanityTests.WebProjectTests.test01_Register()'><b>test01_Register</b><br>Test class: SanityTests.WebProjectTests<br>Test method: Test01: Register to WebSite</td>
+<td></td>
+<td>12</td>
+<td>SanityTests.WebProjectTests@77192705</td></tr>
+<tr>
+<td title='ErrorHandlingTests.WebEHTest.test01_makeErrorInDonation()'><b>test01_makeErrorInDonation</b><br>Test class: ErrorHandlingTests.WebEHTest<br>Test method: Test01: Make donation using amount out of boundary</td>
+<td></td>
+<td>15</td>
+<td>ErrorHandlingTests.WebEHTest@226642a5</td></tr>
+<tr>
+<td title='ErrorHandlingTests.WebEHTest.test02_Alert_Window()'><b>test02_Alert_Window</b><br>Test class: ErrorHandlingTests.WebEHTest<br>Test method: Test02: Check out w/out accepting term & conditions</td>
+<td></td>
+<td>8</td>
+<td>ErrorHandlingTests.WebEHTest@226642a5</td></tr>
+<tr>
+<td title='SanityTests.WebProjectTests.test02_makeDonation()'><b>test02_makeDonation</b><br>Test class: SanityTests.WebProjectTests<br>Test method: Test02: Make donation, should show 1 items in cart</td>
+<td></td>
+<td>10</td>
+<td>SanityTests.WebProjectTests@77192705</td></tr>
+<tr>
+<td title='SanityTests.WebProjectTests.test03_CheckOut()'><b>test03_CheckOut</b><br>Test class: SanityTests.WebProjectTests<br>Test method: Test03: Check Out</td>
+<td></td>
+<td>26</td>
+<td>SanityTests.WebProjectTests@77192705</td></tr>
+<tr>
+<td title='SanityTests.WebProjectTests.test04_verify_logo()'><b>test04_verify_logo</b><br>Test class: SanityTests.WebProjectTests<br>Test method: Test04: Verify Logo</td>
+<td></td>
+<td>1</td>
+<td>SanityTests.WebProjectTests@77192705</td></tr>
+</table><p>
+</body>
+</html>

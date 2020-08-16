@@ -1,0 +1,41 @@
+[ {
+  "uid" : "81c8870d1be60c82",
+  "name" : "Test01: Register to WebSite with DB",
+  "time" : {
+    "start" : 1597583213272,
+    "stop" : 1597583226231,
+    "duration" : 12959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e278150a89cc664a",
+  "name" : "Test04: Verify Logo",
+  "time" : {
+    "start" : 1597583263645,
+    "stop" : 1597583265173,
+    "duration" : 1528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d869795aa5729cdb",
+  "name" : "Test02: Make donation using sums from DB",
+  "time" : {
+    "start" : 1597583228268,
+    "stop" : 1597583245303,
+    "duration" : 17035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33d870defdbe34f8",
+  "name" : "Test03: Check Out using DB",
+  "time" : {
+    "start" : 1597583247564,
+    "stop" : 1597583262854,
+    "duration" : 15290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

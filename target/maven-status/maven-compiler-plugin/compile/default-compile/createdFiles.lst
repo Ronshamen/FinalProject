@@ -1,0 +1,9 @@
+PageObjects\nopComercePages\PaymentPage.class
+WorkFlows\DBWebFlows.class
+PageObjects\nopComercePages\ComputerDropMenuPage.class
+ProjectUtilities\ManagePages.class
+WorkFlows\WebEerrorHandlingFlows.class
+PageObjects\nopComercePages\ShoppingCartPage.class
+PageObjects\nopComercePages\DigitalDownloads.class
+ProjectUtilities\Base.class
+WorkFlows\WebFlows.class

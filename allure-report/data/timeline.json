@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PRBCB84",
+    "children" : [ {
+      "name" : "16084@DESKTOP-PRBCB84.main(1)",
+      "children" : [ {
+        "name" : "Test02: Make donation using sums from DB",
+        "uid" : "d869795aa5729cdb",
+        "parentUid" : "78ee3eccdb7bd1ad3ebc846f4e345c83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597583228268,
+          "stop" : 1597583245303,
+          "duration" : 17035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Check Out using DB",
+        "uid" : "33d870defdbe34f8",
+        "parentUid" : "78ee3eccdb7bd1ad3ebc846f4e345c83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597583247564,
+          "stop" : 1597583262854,
+          "duration" : 15290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Verify Logo",
+        "uid" : "e278150a89cc664a",
+        "parentUid" : "78ee3eccdb7bd1ad3ebc846f4e345c83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597583263645,
+          "stop" : 1597583265173,
+          "duration" : 1528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Register to WebSite with DB",
+        "uid" : "81c8870d1be60c82",
+        "parentUid" : "78ee3eccdb7bd1ad3ebc846f4e345c83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597583213272,
+          "stop" : 1597583226231,
+          "duration" : 12959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "78ee3eccdb7bd1ad3ebc846f4e345c83"
+    } ],
+    "uid" : "19996ccad07d412ca8275be4d10527de"
+  } ]
+}

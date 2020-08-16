@@ -1,0 +1,2297 @@
+{
+  "4708f6edb87ff5ad343bc10e4a21ba64" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "82c1d8115ca863bb",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/82c1d8115ca863bb",
+      "status" : "failed",
+      "statusDetails" : "expected [(2)] but found [(1)]",
+      "time" : {
+        "start" : 1596574176975,
+        "stop" : 1596574192699,
+        "duration" : 15724
+      }
+    }, {
+      "uid" : "fbfa6b4875292a9a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/fbfa6b4875292a9a",
+      "status" : "failed",
+      "statusDetails" : "expected [(1)] but found [(0)]",
+      "time" : {
+        "start" : 1596574013325,
+        "stop" : 1596574028257,
+        "duration" : 14932
+      }
+    }, {
+      "uid" : "39440ca3dad498b9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/39440ca3dad498b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390702493,
+        "stop" : 1596390727621,
+        "duration" : 25128
+      }
+    }, {
+      "uid" : "d80b77f9e8c4abf4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/d80b77f9e8c4abf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326547235,
+        "stop" : 1596326571696,
+        "duration" : 24461
+      }
+    } ]
+  },
+  "5195d750adb152de891c7643a66b2ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "e278150a89cc664a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/44/allure/#testresult/e278150a89cc664a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597583263645,
+        "stop" : 1597583265173,
+        "duration" : 1528
+      }
+    }, {
+      "uid" : "9af0b10336d01f9e",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/9af0b10336d01f9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576508349,
+        "stop" : 1597576509943,
+        "duration" : 1594
+      }
+    }, {
+      "uid" : "1654e84202cc4238",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/1654e84202cc4238",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576343003,
+        "stop" : 1597576344538,
+        "duration" : 1535
+      }
+    }, {
+      "uid" : "dfbe658062747716",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/dfbe658062747716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576087769,
+        "stop" : 1597576089215,
+        "duration" : 1446
+      }
+    }, {
+      "uid" : "ea70bdb93b07e07d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/ea70bdb93b07e07d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597575948796,
+        "stop" : 1597575950330,
+        "duration" : 1534
+      }
+    }, {
+      "uid" : "e8bbf067b2577539",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/e8bbf067b2577539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597575706258,
+        "stop" : 1597575707871,
+        "duration" : 1613
+      }
+    }, {
+      "uid" : "24287d26694a03d7",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/24287d26694a03d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597572521155,
+        "stop" : 1597572522559,
+        "duration" : 1404
+      }
+    }, {
+      "uid" : "17571bd7fd59b210",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/17571bd7fd59b210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597572352458,
+        "stop" : 1597572354005,
+        "duration" : 1547
+      }
+    }, {
+      "uid" : "573bbee8c81910bd",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/573bbee8c81910bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597571870052,
+        "stop" : 1597571871674,
+        "duration" : 1622
+      }
+    }, {
+      "uid" : "1e5f188491f0a034",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/1e5f188491f0a034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597571870052,
+        "stop" : 1597571871674,
+        "duration" : 1622
+      }
+    }, {
+      "uid" : "1ded140fb3150187",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/1ded140fb3150187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597542466593,
+        "stop" : 1597542467526,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "22bb797eb7423a19",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/22bb797eb7423a19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597541986451,
+        "stop" : 1597541987263,
+        "duration" : 812
+      }
+    }, {
+      "uid" : "15bb22622c221a9c",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/15bb22622c221a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597541709999,
+        "stop" : 1597541710818,
+        "duration" : 819
+      }
+    }, {
+      "uid" : "544f9e03149037aa",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/544f9e03149037aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540986807,
+        "stop" : 1597540987610,
+        "duration" : 803
+      }
+    }, {
+      "uid" : "714bab2a2a30779c",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/714bab2a2a30779c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540315858,
+        "stop" : 1597540316706,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "9114e5e4e858bc5f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/9114e5e4e858bc5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539961064,
+        "stop" : 1597539961997,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "70624c268637d1c4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/70624c268637d1c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539851376,
+        "stop" : 1597539852268,
+        "duration" : 892
+      }
+    }, {
+      "uid" : "ff82097e2691354b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/ff82097e2691354b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539141867,
+        "stop" : 1597539143535,
+        "duration" : 1668
+      }
+    }, {
+      "uid" : "450b4bbcbc6e8088",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/450b4bbcbc6e8088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340189302,
+        "stop" : 1597340190847,
+        "duration" : 1545
+      }
+    }, {
+      "uid" : "1fb93ebe2c93a316",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/1fb93ebe2c93a316",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597003446873,
+        "stop" : 1597003448449,
+        "duration" : 1576
+      }
+    } ]
+  },
+  "8781a6e78fa08038bd686e89e41088e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "395b00f35d51f521",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/395b00f35d51f521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995081945,
+        "stop" : 1596995090542,
+        "duration" : 8597
+      }
+    } ]
+  },
+  "605a28ceac7c186e74638f10671f66c6" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 26,
+      "unknown" : 0,
+      "total" : 40
+    },
+    "items" : [ {
+      "uid" : "d869795aa5729cdb",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/44/allure/#testresult/d869795aa5729cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597583228268,
+        "stop" : 1597583245303,
+        "duration" : 17035
+      }
+    }, {
+      "uid" : "108504ed69b31dc3",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/108504ed69b31dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576479219,
+        "stop" : 1597576491819,
+        "duration" : 12600
+      }
+    }, {
+      "uid" : "e788bc5b6ab14216",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/e788bc5b6ab14216",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597576278695,
+        "stop" : 1597576309478,
+        "duration" : 30783
+      }
+    }, {
+      "uid" : "b2dc3703e5f3551a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/b2dc3703e5f3551a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597576042079,
+        "stop" : 1597576070577,
+        "duration" : 28498
+      }
+    }, {
+      "uid" : "3541d2a1e168e440",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/3541d2a1e168e440",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597575907837,
+        "stop" : 1597575935651,
+        "duration" : 27814
+      }
+    }, {
+      "uid" : "9fafa30ea3ff26d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/9fafa30ea3ff26d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597575658026,
+        "stop" : 1597575689110,
+        "duration" : 31084
+      }
+    }, {
+      "uid" : "971acdbd7e71d5d0",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/971acdbd7e71d5d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597572474606,
+        "stop" : 1597572501820,
+        "duration" : 27214
+      }
+    }, {
+      "uid" : "141dd2a1edd60b5d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/141dd2a1edd60b5d",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597572324611,
+        "stop" : 1597572336645,
+        "duration" : 12034
+      }
+    }, {
+      "uid" : "9035efa8424437ec",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/9035efa8424437ec",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597571842244,
+        "stop" : 1597571853283,
+        "duration" : 11039
+      }
+    }, {
+      "uid" : "6045f6e59b9c5cc7",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/6045f6e59b9c5cc7",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597571842244,
+        "stop" : 1597571853283,
+        "duration" : 11039
+      }
+    }, {
+      "uid" : "bc06fed856199bba",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/bc06fed856199bba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597542416388,
+        "stop" : 1597542446095,
+        "duration" : 29707
+      }
+    }, {
+      "uid" : "974ee4270e3208bf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/974ee4270e3208bf",
+      "status" : "broken",
+      "statusDetails" : "Index: 3, Size: 3",
+      "time" : {
+        "start" : 1597541934591,
+        "stop" : 1597541961394,
+        "duration" : 26803
+      }
+    }, {
+      "uid" : "aea8e23f1b74104f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/aea8e23f1b74104f",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597541679271,
+        "stop" : 1597541691179,
+        "duration" : 11908
+      }
+    }, {
+      "uid" : "1db3a636b1ead0dc",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/1db3a636b1ead0dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540938027,
+        "stop" : 1597540965420,
+        "duration" : 27393
+      }
+    }, {
+      "uid" : "9c23ffc3c1b7d505",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/9c23ffc3c1b7d505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540275892,
+        "stop" : 1597540302868,
+        "duration" : 26976
+      }
+    }, {
+      "uid" : "ad02d9ab1e6825c9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/ad02d9ab1e6825c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539917316,
+        "stop" : 1597539944014,
+        "duration" : 26698
+      }
+    }, {
+      "uid" : "f754bf03ce9628a4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/f754bf03ce9628a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539811750,
+        "stop" : 1597539837556,
+        "duration" : 25806
+      }
+    }, {
+      "uid" : "c76ee8b38d650392",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/c76ee8b38d650392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539098570,
+        "stop" : 1597539126323,
+        "duration" : 27753
+      }
+    }, {
+      "uid" : "48267c270bfe679",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/48267c270bfe679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340139291,
+        "stop" : 1597340167941,
+        "duration" : 28650
+      }
+    }, {
+      "uid" : "fa731ab433820b59",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/fa731ab433820b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597003401270,
+        "stop" : 1597003425298,
+        "duration" : 24028
+      }
+    } ]
+  },
+  "dc344972a793463c05484d9c285dfec4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "301f9ccebda170b0",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/301f9ccebda170b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597339975858,
+        "stop" : 1597339976080,
+        "duration" : 222
+      }
+    } ]
+  },
+  "a127bd688aa3f94a7643dd0df61466f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f48aa7fa2d4ee21f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/f48aa7fa2d4ee21f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574214735,
+        "stop" : 1596574215569,
+        "duration" : 834
+      }
+    }, {
+      "uid" : "81e54abea91fae4a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/81e54abea91fae4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574050560,
+        "stop" : 1596574051374,
+        "duration" : 814
+      }
+    }, {
+      "uid" : "1baf4a3e5f25e583",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/1baf4a3e5f25e583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390775562,
+        "stop" : 1596390777067,
+        "duration" : 1505
+      }
+    }, {
+      "uid" : "38bd15eabec02f54",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/38bd15eabec02f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326611273,
+        "stop" : 1596326612605,
+        "duration" : 1332
+      }
+    } ]
+  },
+  "40ac7333155cc824ae319d3e1b6f4f17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "ce3069429581c550",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/ce3069429581c550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596574170381,
+        "stop" : 1596574176384,
+        "duration" : 6003
+      }
+    }, {
+      "uid" : "7eedd33e53ee9e0",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/7eedd33e53ee9e0",
+      "status" : "broken",
+      "statusDetails" : "-1",
+      "time" : {
+        "start" : 1596573997278,
+        "stop" : 1596574011553,
+        "duration" : 14275
+      }
+    }, {
+      "uid" : "9205e5cfe1decedd",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/9205e5cfe1decedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390695291,
+        "stop" : 1596390701719,
+        "duration" : 6428
+      }
+    }, {
+      "uid" : "2fd0694ba792305b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/2fd0694ba792305b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326540193,
+        "stop" : 1596326546618,
+        "duration" : 6425
+      }
+    } ]
+  },
+  "28342f2f5f04c4f3fc83dec6593c4137" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 19,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "32ba3bbf8744f31f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/35/allure/#testresult/32ba3bbf8744f31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596584322341,
+        "stop" : 1596584332760,
+        "duration" : 10419
+      }
+    }, {
+      "uid" : "56d807bcbe2f4bd3",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/34/allure/#testresult/56d807bcbe2f4bd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596584165366,
+        "stop" : 1596584176734,
+        "duration" : 11368
+      }
+    }, {
+      "uid" : "8a49e8e40c324098",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/33/allure/#testresult/8a49e8e40c324098",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1596584058179,
+        "stop" : 1596584061917,
+        "duration" : 3738
+      }
+    }, {
+      "uid" : "9e285d183422cdfa",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/32/allure/#testresult/9e285d183422cdfa",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1596583799574,
+        "stop" : 1596583804214,
+        "duration" : 4640
+      }
+    }, {
+      "uid" : "3a51a7f19a11017a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/31/allure/#testresult/3a51a7f19a11017a",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1596583602623,
+        "stop" : 1596583607670,
+        "duration" : 5047
+      }
+    }, {
+      "uid" : "ef60a656f6447661",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/30/allure/#testresult/ef60a656f6447661",
+      "status" : "broken",
+      "statusDetails" : "Index: 2, Size: 2",
+      "time" : {
+        "start" : 1596583190234,
+        "stop" : 1596583194321,
+        "duration" : 4087
+      }
+    }, {
+      "uid" : "8a8269c3c17797c4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/29/allure/#testresult/8a8269c3c17797c4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[name = 'register-continue']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596583097669,
+        "stop" : 1596583120340,
+        "duration" : 22671
+      }
+    }, {
+      "uid" : "4771676f98540084",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/28/allure/#testresult/4771676f98540084",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[name = 'register-continue']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596582904275,
+        "stop" : 1596582926980,
+        "duration" : 22705
+      }
+    }, {
+      "uid" : "4490616cd9e3569b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/27/allure/#testresult/4490616cd9e3569b",
+      "status" : "broken",
+      "statusDetails" : "Index: 2, Size: 2",
+      "time" : {
+        "start" : 1596582795620,
+        "stop" : 1596582800999,
+        "duration" : 5379
+      }
+    }, {
+      "uid" : "82eca9cf5b3d5d86",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/26/allure/#testresult/82eca9cf5b3d5d86",
+      "status" : "broken",
+      "statusDetails" : "Index: 2, Size: 2",
+      "time" : {
+        "start" : 1596582616271,
+        "stop" : 1596582622064,
+        "duration" : 5793
+      }
+    }, {
+      "uid" : "19ba19f62e9d9de6",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/25/allure/#testresult/19ba19f62e9d9de6",
+      "status" : "broken",
+      "statusDetails" : "Index: 3, Size: 2",
+      "time" : {
+        "start" : 1596582012017,
+        "stop" : 1596582017214,
+        "duration" : 5197
+      }
+    }, {
+      "uid" : "a3b9c9e8a59d629b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/24/allure/#testresult/a3b9c9e8a59d629b",
+      "status" : "broken",
+      "statusDetails" : "Index: 3, Size: 2",
+      "time" : {
+        "start" : 1596581758144,
+        "stop" : 1596581764122,
+        "duration" : 5978
+      }
+    }, {
+      "uid" : "8fe17fcb3a10d2d9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/23/allure/#testresult/8fe17fcb3a10d2d9",
+      "status" : "broken",
+      "statusDetails" : "Index: 2, Size: 2",
+      "time" : {
+        "start" : 1596581437159,
+        "stop" : 1596581442546,
+        "duration" : 5387
+      }
+    }, {
+      "uid" : "6273c3cdb7694cbf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/22/allure/#testresult/6273c3cdb7694cbf",
+      "status" : "broken",
+      "statusDetails" : "Index: 2, Size: 2",
+      "time" : {
+        "start" : 1596581121441,
+        "stop" : 1596581126884,
+        "duration" : 5443
+      }
+    }, {
+      "uid" : "90e61a9ff39d5962",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/21/allure/#testresult/90e61a9ff39d5962",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596580776537,
+        "stop" : 1596580781333,
+        "duration" : 4796
+      }
+    }, {
+      "uid" : "39da297b6c5505cf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/20/allure/#testresult/39da297b6c5505cf",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596578111076,
+        "stop" : 1596578115961,
+        "duration" : 4885
+      }
+    }, {
+      "uid" : "2447ddf93181a7d5",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/19/allure/#testresult/2447ddf93181a7d5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596577900027,
+        "stop" : 1596577900783,
+        "duration" : 756
+      }
+    }, {
+      "uid" : "234ac02d4b8eaf27",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/18/allure/#testresult/234ac02d4b8eaf27",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596577674647,
+        "stop" : 1596577675473,
+        "duration" : 826
+      }
+    }, {
+      "uid" : "12f3f45cf29dab6b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/17/allure/#testresult/12f3f45cf29dab6b",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596577494826,
+        "stop" : 1596577495756,
+        "duration" : 930
+      }
+    }, {
+      "uid" : "9363299571a60716",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/16/allure/#testresult/9363299571a60716",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596575727162,
+        "stop" : 1596575727785,
+        "duration" : 623
+      }
+    } ]
+  },
+  "afe1c46d0501fbf5409c8322985b9fd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f4f18aeaa429f8bc",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/f4f18aeaa429f8bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596319203563,
+        "stop" : 1596319204253,
+        "duration" : 690
+      }
+    }, {
+      "uid" : "1d169f615ba39a9e",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/1d169f615ba39a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596318571165,
+        "stop" : 1596318571937,
+        "duration" : 772
+      }
+    } ]
+  },
+  "c74b9d4a42222c5ca570dab7fd3fe120" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 13,
+      "skipped" : 0,
+      "passed" : 27,
+      "unknown" : 0,
+      "total" : 40
+    },
+    "items" : [ {
+      "uid" : "81c8870d1be60c82",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/44/allure/#testresult/81c8870d1be60c82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597583213272,
+        "stop" : 1597583226231,
+        "duration" : 12959
+      }
+    }, {
+      "uid" : "d02b71bd8937e09a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/d02b71bd8937e09a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576465923,
+        "stop" : 1597576478324,
+        "duration" : 12401
+      }
+    }, {
+      "uid" : "15e5b146da8c8547",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/15e5b146da8c8547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576264371,
+        "stop" : 1597576276717,
+        "duration" : 12346
+      }
+    }, {
+      "uid" : "2bc2e0b999cf8dad",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/2bc2e0b999cf8dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576027032,
+        "stop" : 1597576040048,
+        "duration" : 13016
+      }
+    }, {
+      "uid" : "56c505efb8919e94",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/56c505efb8919e94",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[name = 'register-continue']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597575881354,
+        "stop" : 1597575906804,
+        "duration" : 25450
+      }
+    }, {
+      "uid" : "c010510e90581a23",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/c010510e90581a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597575643904,
+        "stop" : 1597575656989,
+        "duration" : 13085
+      }
+    }, {
+      "uid" : "a9129792ea0d7f9f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/a9129792ea0d7f9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597572460143,
+        "stop" : 1597572473636,
+        "duration" : 13493
+      }
+    }, {
+      "uid" : "b84e760a42d5f414",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/b84e760a42d5f414",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597572316420,
+        "stop" : 1597572322501,
+        "duration" : 6081
+      }
+    }, {
+      "uid" : "f5531470810a0daa",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/f5531470810a0daa",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597571835684,
+        "stop" : 1597571841227,
+        "duration" : 5543
+      }
+    }, {
+      "uid" : "1f8def5d2f7bf9d1",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/1f8def5d2f7bf9d1",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597571835684,
+        "stop" : 1597571841227,
+        "duration" : 5543
+      }
+    }, {
+      "uid" : "7ad54c2b32056e97",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/7ad54c2b32056e97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597542400548,
+        "stop" : 1597542415412,
+        "duration" : 14864
+      }
+    }, {
+      "uid" : "455b97869a239c3d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/455b97869a239c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597541921678,
+        "stop" : 1597541932857,
+        "duration" : 11179
+      }
+    }, {
+      "uid" : "5ec258111ae099ba",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/5ec258111ae099ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597541663925,
+        "stop" : 1597541678360,
+        "duration" : 14435
+      }
+    }, {
+      "uid" : "9a6e259c9d369a5",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/9a6e259c9d369a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540925342,
+        "stop" : 1597540937290,
+        "duration" : 11948
+      }
+    }, {
+      "uid" : "6f69611830187043",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/6f69611830187043",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597540270093,
+        "stop" : 1597540275211,
+        "duration" : 5118
+      }
+    }, {
+      "uid" : "174c02c00b8b8744",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/174c02c00b8b8744",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539905718,
+        "stop" : 1597539916555,
+        "duration" : 10837
+      }
+    }, {
+      "uid" : "4f52e499890dea77",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/4f52e499890dea77",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597539805783,
+        "stop" : 1597539810047,
+        "duration" : 4264
+      }
+    }, {
+      "uid" : "511eed0dcc8a1e91",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/511eed0dcc8a1e91",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1597539090582,
+        "stop" : 1597539096483,
+        "duration" : 5901
+      }
+    }, {
+      "uid" : "3f5e7d5afaf14c27",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/3f5e7d5afaf14c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340125913,
+        "stop" : 1597340138351,
+        "duration" : 12438
+      }
+    }, {
+      "uid" : "eb73f434eb9bb4eb",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/eb73f434eb9bb4eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597003386942,
+        "stop" : 1597003399311,
+        "duration" : 12369
+      }
+    } ]
+  },
+  "d8e687790021be4b0e1970c643921533" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "edeeab6436bd33b0",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/edeeab6436bd33b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596319172908,
+        "stop" : 1596319178647,
+        "duration" : 5739
+      }
+    }, {
+      "uid" : "c74b2e6dea9ef0d6",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/c74b2e6dea9ef0d6",
+      "status" : "broken",
+      "statusDetails" : "-1",
+      "time" : {
+        "start" : 1596318525419,
+        "stop" : 1596318539423,
+        "duration" : 14004
+      }
+    } ]
+  },
+  "6838d6bc775f03c50a7613a8a5d62f61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4108fc526fae78b3",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/4108fc526fae78b3",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597571919190,
+        "stop" : 1597571919190,
+        "duration" : 0
+      }
+    } ]
+  },
+  "23bc23ce0d9e2cf4a651f8e02ac84ff8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb5df12aad8f7432",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/eb5df12aad8f7432",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597571919057,
+        "stop" : 1597571919060,
+        "duration" : 3
+      }
+    } ]
+  },
+  "1b0ffc9d8ee45f7ea94a8f991d8e6db7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "b3452d5634378274",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/b3452d5634378274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340077243,
+        "stop" : 1597340078025,
+        "duration" : 782
+      }
+    }, {
+      "uid" : "a3766c3ae8eeb4fa",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/a3766c3ae8eeb4fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390612998,
+        "stop" : 1596390613796,
+        "duration" : 798
+      }
+    }, {
+      "uid" : "454207e34d0d7f97",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/454207e34d0d7f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390612998,
+        "stop" : 1596390613796,
+        "duration" : 798
+      }
+    }, {
+      "uid" : "61d56e297021a47",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/61d56e297021a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596325935702,
+        "stop" : 1596325936528,
+        "duration" : 826
+      }
+    } ]
+  },
+  "31c953a6cc0bc38b08786cdf2d082935" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 12
+    },
+    "items" : [ {
+      "uid" : "8fdbeffdafa5e2bc",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/15/allure/#testresult/8fdbeffdafa5e2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596668853560,
+        "stop" : 1596668855061,
+        "duration" : 1501
+      }
+    }, {
+      "uid" : "5e7a05620f175743",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/14/allure/#testresult/5e7a05620f175743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596667737557,
+        "stop" : 1596667739018,
+        "duration" : 1461
+      }
+    }, {
+      "uid" : "1501c1608b5ef17d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/13/allure/#testresult/1501c1608b5ef17d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596667737557,
+        "stop" : 1596667739018,
+        "duration" : 1461
+      }
+    }, {
+      "uid" : "fd49954c59a2b945",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/12/allure/#testresult/fd49954c59a2b945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596667484055,
+        "stop" : 1596667485623,
+        "duration" : 1568
+      }
+    }, {
+      "uid" : "278a891c026c5f71",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/11/allure/#testresult/278a891c026c5f71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596667316616,
+        "stop" : 1596667318106,
+        "duration" : 1490
+      }
+    }, {
+      "uid" : "c36f4accde38cf74",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/10/allure/#testresult/c36f4accde38cf74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596666840732,
+        "stop" : 1596666842258,
+        "duration" : 1526
+      }
+    }, {
+      "uid" : "7fab0286ad31b6a7",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/9/allure/#testresult/7fab0286ad31b6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596666700923,
+        "stop" : 1596666702725,
+        "duration" : 1802
+      }
+    }, {
+      "uid" : "a83548bf1720661d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/8/allure/#testresult/a83548bf1720661d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596632623929,
+        "stop" : 1596632625424,
+        "duration" : 1495
+      }
+    }, {
+      "uid" : "8f046077a3c422bf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/7/allure/#testresult/8f046077a3c422bf",
+      "status" : "failed",
+      "statusDetails" : "Images are not the same expected [false] but found [true]",
+      "time" : {
+        "start" : 1596632207859,
+        "stop" : 1596632209926,
+        "duration" : 2067
+      }
+    }, {
+      "uid" : "158ff375ca2361ee",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/6/allure/#testresult/158ff375ca2361ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596632058364,
+        "stop" : 1596632059707,
+        "duration" : 1343
+      }
+    }, {
+      "uid" : "844523c87e029020",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/5/allure/#testresult/844523c87e029020",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596631901246,
+        "stop" : 1596631902733,
+        "duration" : 1487
+      }
+    }, {
+      "uid" : "f590d78e22f127a7",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/4/allure/#testresult/f590d78e22f127a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596631606130,
+        "stop" : 1596631607440,
+        "duration" : 1310
+      }
+    } ]
+  },
+  "41537a31da585f6661b7fe9a5d83f5df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b35cf84a2a690125",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/15/allure/#testresult/b35cf84a2a690125",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1596575338003,
+        "stop" : 1596575338009,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "8abb6655b3afe2a4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/8abb6655b3afe2a4",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1596573881742,
+        "stop" : 1596573881744,
+        "duration" : 2
+      }
+    } ]
+  },
+  "c2787bf733b94d1adcff11f35117a5ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "180167f50109b4c9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/180167f50109b4c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995027651,
+        "stop" : 1596995055353,
+        "duration" : 27702
+      }
+    } ]
+  },
+  "b0c28122534e4d129814089b089cc0e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4289695597994ff9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/4289695597994ff9",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1596325774979,
+        "stop" : 1596325774983,
+        "duration" : 4
+      }
+    } ]
+  },
+  "f63203a79518c29314d40c2cc2788e83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2f7b77919464fe3a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/2f7b77919464fe3a",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.\n  (Session info: chrome=84.0.4147.105)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\sarid\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1cadfe4e620147e3486c4727f85931b0",
+      "time" : {
+        "start" : 1596319197264,
+        "stop" : 1596319202679,
+        "duration" : 5415
+      }
+    }, {
+      "uid" : "375f0a9496577fff",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/375f0a9496577fff",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.\n  (Session info: chrome=84.0.4147.105)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\sarid\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 42dd759d2dd463bd418322b34be24572",
+      "time" : {
+        "start" : 1596318565133,
+        "stop" : 1596318570372,
+        "duration" : 5239
+      }
+    } ]
+  },
+  "34b88c57034d4e3841d1cca25e94f542" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "abc8ae6d346ca149",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/abc8ae6d346ca149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995002568,
+        "stop" : 1596995012348,
+        "duration" : 9780
+      }
+    }, {
+      "uid" : "766177791e01d5cf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/766177791e01d5cf",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596574152597,
+        "stop" : 1596574153304,
+        "duration" : 707
+      }
+    }, {
+      "uid" : "77ee9ecc1286befe",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/77ee9ecc1286befe",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596573989225,
+        "stop" : 1596573990343,
+        "duration" : 1118
+      }
+    }, {
+      "uid" : "6f16b54f66943c1f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/6f16b54f66943c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390659605,
+        "stop" : 1596390669956,
+        "duration" : 10351
+      }
+    }, {
+      "uid" : "dca1ae0ca1f5680f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/dca1ae0ca1f5680f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326511752,
+        "stop" : 1596326523901,
+        "duration" : 12149
+      }
+    } ]
+  },
+  "25775e49cd793badf5150b072171f589" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a75b44d40deef4b2",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/a75b44d40deef4b2",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597571919170,
+        "stop" : 1597571919172,
+        "duration" : 2
+      }
+    } ]
+  },
+  "aae6ab5491477c1a15ee499312615d79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "779ece002d8847a8",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/779ece002d8847a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597339971187,
+        "stop" : 1597339975210,
+        "duration" : 4023
+      }
+    } ]
+  },
+  "1ed1e7e359eedc031aaa8fbf860e6a8b" : {
+    "statistic" : {
+      "failed" : 13,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 40
+    },
+    "items" : [ {
+      "uid" : "33d870defdbe34f8",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/44/allure/#testresult/33d870defdbe34f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597583247564,
+        "stop" : 1597583262854,
+        "duration" : 15290
+      }
+    }, {
+      "uid" : "bd3ffaabc423bc5d",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/bd3ffaabc423bc5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576492512,
+        "stop" : 1597576507589,
+        "duration" : 15077
+      }
+    }, {
+      "uid" : "6d95ac6fe1034b9b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/6d95ac6fe1034b9b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@id=\"termsofservice\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1597576310258,
+        "stop" : 1597576342299,
+        "duration" : 32041
+      }
+    }, {
+      "uid" : "175b4c756219a17e",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/175b4c756219a17e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597576071605,
+        "stop" : 1597576086956,
+        "duration" : 15351
+      }
+    }, {
+      "uid" : "f1d20f0cdfce8ec6",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/f1d20f0cdfce8ec6",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1597575936456,
+        "stop" : 1597575948110,
+        "duration" : 11654
+      }
+    }, {
+      "uid" : "8cea337802d9de1a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/8cea337802d9de1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597575689885,
+        "stop" : 1597575705538,
+        "duration" : 15653
+      }
+    }, {
+      "uid" : "110e6e352159fb8",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/110e6e352159fb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597572502563,
+        "stop" : 1597572520408,
+        "duration" : 17845
+      }
+    }, {
+      "uid" : "9432f5d8a42724b3",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/9432f5d8a42724b3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1597572337344,
+        "stop" : 1597572351781,
+        "duration" : 14437
+      }
+    }, {
+      "uid" : "41a6fb019f7129dd",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/41a6fb019f7129dd",
+      "status" : "broken",
+      "statusDetails" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1597571854903,
+        "stop" : 1597571869406,
+        "duration" : 14503
+      }
+    }, {
+      "uid" : "39d6ccac03e438ae",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/39d6ccac03e438ae",
+      "status" : "broken",
+      "statusDetails" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1597571854903,
+        "stop" : 1597571869406,
+        "duration" : 14503
+      }
+    }, {
+      "uid" : "6c1b514d69c67956",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/6c1b514d69c67956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597542447947,
+        "stop" : 1597542464863,
+        "duration" : 16916
+      }
+    }, {
+      "uid" : "ffa90b2fc0affdbe",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/ffa90b2fc0affdbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597541962114,
+        "stop" : 1597541985577,
+        "duration" : 23463
+      }
+    }, {
+      "uid" : "57cd5023f7c8c584",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/57cd5023f7c8c584",
+      "status" : "broken",
+      "statusDetails" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1597541692817,
+        "stop" : 1597541707871,
+        "duration" : 15054
+      }
+    }, {
+      "uid" : "3cd8c3dc1b3752c9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/3cd8c3dc1b3752c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597540967101,
+        "stop" : 1597540984813,
+        "duration" : 17712
+      }
+    }, {
+      "uid" : "1d079eb4ef2d6c4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/1d079eb4ef2d6c4",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1597540303536,
+        "stop" : 1597540315275,
+        "duration" : 11739
+      }
+    }, {
+      "uid" : "d9a65c92f7d070b9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/d9a65c92f7d070b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597539944637,
+        "stop" : 1597539960377,
+        "duration" : 15740
+      }
+    }, {
+      "uid" : "e2f64a2e5efc0f5f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/e2f64a2e5efc0f5f",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1597539838241,
+        "stop" : 1597539850753,
+        "duration" : 12512
+      }
+    }, {
+      "uid" : "bd4228693fe6dd1a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/bd4228693fe6dd1a",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1597539128316,
+        "stop" : 1597539141100,
+        "duration" : 12784
+      }
+    }, {
+      "uid" : "3a34a4310ac4cb6f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/3a34a4310ac4cb6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340169649,
+        "stop" : 1597340188601,
+        "duration" : 18952
+      }
+    }, {
+      "uid" : "27a4ad08f6d0c8c2",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/27a4ad08f6d0c8c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597003426099,
+        "stop" : 1597003446052,
+        "duration" : 19953
+      }
+    } ]
+  },
+  "1a80e49b75ce2a61037bc8bf69e13736" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e244fbc8907ddb90",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/e244fbc8907ddb90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597339976097,
+        "stop" : 1597339976310,
+        "duration" : 213
+      }
+    } ]
+  },
+  "1aa2b1045b348a942ff3cad892af7a78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2466bd10c59c5bf",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/a2466bd10c59c5bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597339975475,
+        "stop" : 1597339975847,
+        "duration" : 372
+      }
+    } ]
+  },
+  "64242c524c7ec2feb6b4bf0c58fd7526" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27c225035345bb0c",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/15/allure/#testresult/27c225035345bb0c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596575369160,
+        "stop" : 1596575369162,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e537cbe56acf1898ac6614ebadb0829f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b89697c7e09113dd",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/b89697c7e09113dd",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597571919181,
+        "stop" : 1597571919181,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1dd0c941112fb0f509e9f7e12242a233" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e76a91515f770e2b",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/e76a91515f770e2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995068512,
+        "stop" : 1596995081199,
+        "duration" : 12687
+      }
+    } ]
+  },
+  "40d6d9c325a75bcc10fec989d2ac38d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da7f56d279132fae",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/da7f56d279132fae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995014143,
+        "stop" : 1596995026979,
+        "duration" : 12836
+      }
+    } ]
+  },
+  "f27d02217632c339280900ab21ab5ad2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f3b41ea912e5b159",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/f3b41ea912e5b159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596319160178,
+        "stop" : 1596319171170,
+        "duration" : 10992
+      }
+    }, {
+      "uid" : "c61387642df3e5a3",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/c61387642df3e5a3",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.\n  (Session info: chrome=84.0.4147.105)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\sarid\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 42dd759d2dd463bd418322b34be24572",
+      "time" : {
+        "start" : 1596318521134,
+        "stop" : 1596318524863,
+        "duration" : 3729
+      }
+    } ]
+  },
+  "db17d2fc77c459b0f066317a8fa3c9d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c8c369bec6edfe1",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/15/allure/#testresult/4c8c369bec6edfe1",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1596575338103,
+        "stop" : 1596575338105,
+        "duration" : 2
+      }
+    } ]
+  },
+  "c7e42bf7e182beaee9144dd15d5bf8d0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2e051e02e0ac5971",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/2e051e02e0ac5971",
+      "status" : "failed",
+      "statusDetails" : "expected [(1)] but found [(0)]",
+      "time" : {
+        "start" : 1596574155008,
+        "stop" : 1596574168812,
+        "duration" : 13804
+      }
+    }, {
+      "uid" : "fa02fbbb35d11548",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/fa02fbbb35d11548",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.\n  (Session info: chrome=84.0.4147.105)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\sarid\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7bbd07cb816f04b7858e95484ff0551b",
+      "time" : {
+        "start" : 1596573992021,
+        "stop" : 1596573995735,
+        "duration" : 3714
+      }
+    }, {
+      "uid" : "b91a7d3eed089641",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/b91a7d3eed089641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390670827,
+        "stop" : 1596390694491,
+        "duration" : 23664
+      }
+    }, {
+      "uid" : "ab5e7ee69547d257",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/ab5e7ee69547d257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326525109,
+        "stop" : 1596326539316,
+        "duration" : 14207
+      }
+    } ]
+  },
+  "26dc126f96c5a18648c4f2996ff8c1b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "92c7aa8a891d2792",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/92c7aa8a891d2792",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1596573881847,
+        "stop" : 1596573881849,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "39bf36d1b8794478",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/39bf36d1b8794478",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[name = 'register-continue']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596319137664,
+        "stop" : 1596319159459,
+        "duration" : 21795
+      }
+    }, {
+      "uid" : "60756c1d74f8339f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/60756c1d74f8339f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[name = 'register-continue']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596318496657,
+        "stop" : 1596318519315,
+        "duration" : 22658
+      }
+    } ]
+  },
+  "ab465b22ffcc7ae7a29fdd319bc0281b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "11881932d2a2a718",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/11881932d2a2a718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597340023706,
+        "stop" : 1597340027253,
+        "duration" : 3547
+      }
+    }, {
+      "uid" : "723fbd00b635f088",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/723fbd00b635f088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390532688,
+        "stop" : 1596390535793,
+        "duration" : 3105
+      }
+    }, {
+      "uid" : "849aeba38c1c59c",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/849aeba38c1c59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390532688,
+        "stop" : 1596390535793,
+        "duration" : 3105
+      }
+    }, {
+      "uid" : "45d015a93837660a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/45d015a93837660a",
+      "status" : "skipped",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-PRBCB84', ip: '192.168.236.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1596325775240,
+        "stop" : 1596325775244,
+        "duration" : 4
+      }
+    } ]
+  },
+  "3a593abb6f495ff7ef798292d0868a32" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e118f70481f03d46",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/9/allure/#testresult/e118f70481f03d46",
+      "status" : "failed",
+      "statusDetails" : "expected [(2)] but found [(1)]",
+      "time" : {
+        "start" : 1596319179209,
+        "stop" : 1596319196308,
+        "duration" : 17099
+      }
+    }, {
+      "uid" : "19e53811484bd59a",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/8/allure/#testresult/19e53811484bd59a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596318541061,
+        "stop" : 1596318564540,
+        "duration" : 23479
+      }
+    } ]
+  },
+  "556a051065161a6e5999f25074c6826d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "f4400475ab8a4a87",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/21/allure/#testresult/f4400475ab8a4a87",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596580783230,
+        "stop" : 1596580783230,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1fe3db364b5dc924",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/20/allure/#testresult/1fe3db364b5dc924",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596578117860,
+        "stop" : 1596578117860,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "691150eb6d5668f9",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/19/allure/#testresult/691150eb6d5668f9",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596577902488,
+        "stop" : 1596577902488,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "61c6e195918e00f6",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/17/allure/#testresult/61c6e195918e00f6",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596577497676,
+        "stop" : 1596577497676,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b7c0e4cfe55463e",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/16/allure/#testresult/3b7c0e4cfe55463e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596575729439,
+        "stop" : 1596575729439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd85da829f502b38",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/14/allure/#testresult/bd85da829f502b38",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596574594963,
+        "stop" : 1596574594963,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25840f6941d9a241",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/25840f6941d9a241",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596574217984,
+        "stop" : 1596574217984,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e88d66fa1bf5937",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/9e88d66fa1bf5937",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596574051954,
+        "stop" : 1596574051954,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a172e73ccf2b49ef2a27a4f71cc4aba6" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "c3e61f912aaa3f49",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/13/allure/#testresult/c3e61f912aaa3f49",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1596574193341,
+        "stop" : 1596574212968,
+        "duration" : 19627
+      }
+    }, {
+      "uid" : "a9f3aee54df3a2c4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/12/allure/#testresult/a9f3aee54df3a2c4",
+      "status" : "failed",
+      "statusDetails" : "expected [Checkout] but found [Welcome, Please Sign In!]",
+      "time" : {
+        "start" : 1596574029879,
+        "stop" : 1596574049782,
+        "duration" : 19903
+      }
+    }, {
+      "uid" : "ccdbeb47e21b6e30",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/11/allure/#testresult/ccdbeb47e21b6e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596390728343,
+        "stop" : 1596390774902,
+        "duration" : 46559
+      }
+    }, {
+      "uid" : "8df3001bda4fa815",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/10/allure/#testresult/8df3001bda4fa815",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596326572468,
+        "stop" : 1596326610585,
+        "duration" : 38117
+      }
+    } ]
+  },
+  "f8947ace285b4b3970c8d3c61b0797d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f2c67446bff03f6",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/3f2c67446bff03f6",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\sarid\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597571919184,
+        "stop" : 1597571919184,
+        "duration" : 0
+      }
+    } ]
+  },
+  "26251c56aba1fb3b1e4e96ffb5f34952" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 11,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "35b6d9409a50d6f2",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/14/allure/#testresult/35b6d9409a50d6f2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596667720630,
+        "stop" : 1596667736878,
+        "duration" : 16248
+      }
+    }, {
+      "uid" : "e663dcfc9150f499",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/13/allure/#testresult/e663dcfc9150f499",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596667720630,
+        "stop" : 1596667736878,
+        "duration" : 16248
+      }
+    }, {
+      "uid" : "b6ed5f19e3f90263",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/12/allure/#testresult/b6ed5f19e3f90263",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596667467004,
+        "stop" : 1596667483350,
+        "duration" : 16346
+      }
+    }, {
+      "uid" : "267aea39c04294f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/11/allure/#testresult/267aea39c04294f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596667300172,
+        "stop" : 1596667315876,
+        "duration" : 15704
+      }
+    }, {
+      "uid" : "c6783d2d4945d1f4",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/10/allure/#testresult/c6783d2d4945d1f4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596666822808,
+        "stop" : 1596666838900,
+        "duration" : 16092
+      }
+    }, {
+      "uid" : "5a4e37edbc20aa43",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/9/allure/#testresult/5a4e37edbc20aa43",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596666683308,
+        "stop" : 1596666699228,
+        "duration" : 15920
+      }
+    }, {
+      "uid" : "26832d65cba47ccc",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/8/allure/#testresult/26832d65cba47ccc",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596632607427,
+        "stop" : 1596632623259,
+        "duration" : 15832
+      }
+    }, {
+      "uid" : "61c06bec8f9a1570",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/7/allure/#testresult/61c06bec8f9a1570",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596632190115,
+        "stop" : 1596632206088,
+        "duration" : 15973
+      }
+    }, {
+      "uid" : "827f198309772159",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/6/allure/#testresult/827f198309772159",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596632041798,
+        "stop" : 1596632057610,
+        "duration" : 15812
+      }
+    }, {
+      "uid" : "7e55236db45ab165",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/5/allure/#testresult/7e55236db45ab165",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596631883506,
+        "stop" : 1596631899468,
+        "duration" : 15962
+      }
+    }, {
+      "uid" : "96c785471295f3f",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/4/allure/#testresult/96c785471295f3f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"CreditCardType\"]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1596631589415,
+        "stop" : 1596631605371,
+        "duration" : 15956
+      }
+    } ]
+  },
+  "5789458d6687016c4e89f5f110e52f19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a43474adb0f04189",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/16/allure/#testresult/a43474adb0f04189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596995056940,
+        "stop" : 1596995058487,
+        "duration" : 1547
+      }
+    } ]
+  }
+}
