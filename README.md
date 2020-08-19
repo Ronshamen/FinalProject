@@ -25,5 +25,9 @@ Then add to cart and verify item was added.
 and confirm payment completed.
 4. Take picture of logo and compare to original logo saved in file directory.
 
- 
-
+ ##### test -> ErrorHandlingTest -> WebEHTest
+ 1. In "Digital Dowloads" page, try making donation with amount under boundary value
+ 2. In "Digital Dowloads" page, try making donation with amount higher than boundary value
+ 3. Checkout from shopping cart page, w/out checking the radio button 
+ near 'accept terms and conditions', then get the text from allert window and compare to text
+ from .xml file 
