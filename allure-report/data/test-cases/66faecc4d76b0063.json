@@ -1,0 +1,893 @@
+{
+  "uid" : "66faecc4d76b0063",
+  "name" : "Test02: Make donation using sums from DB",
+  "fullName" : "SanityTests.WebProjectDB.test02_makeDonationWithDB",
+  "historyId" : "605a28ceac7c186e74638f10671f66c6",
+  "time" : {
+    "start" : 1597871997224,
+    "stop" : 1597872008092,
+    "duration" : 10868
+  },
+  "description" : "Description: Add different donations to cart using amounts set on DB",
+  "descriptionHtml" : "<p>Description: Add different donations to cart using amounts set on DB</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1597871969084,
+      "stop" : 1597871981301,
+      "duration" : 12217
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Description: Add different donations to cart using amounts set on DB",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Make donation using amounts from DB",
+      "time" : {
+        "start" : 1597871997224,
+        "stop" : 1597872008034,
+        "duration" : 10810
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Donation values from DB",
+        "time" : {
+          "start" : 1597871997228,
+          "stop" : 1597871998391,
+          "duration" : 1163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "quarry",
+          "value" : "SELECT CorrectAmount, BoundaryAmount, LowAmount, HighAmount FROM Donations WHERE id='1'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597871998415,
+          "stop" : 1597871999810,
+          "duration" : 1395
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597871998494,
+            "stop" : 1597871998994,
+            "duration" : 500
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> xpath: //ul[@class='top-menu notmobile']/li[4]/a]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify Text with Text",
+        "time" : {
+          "start" : 1597871999850,
+          "stop" : 1597871999856,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actualValue",
+          "value" : "Digital downloads"
+        }, {
+          "name" : "expectedValue",
+          "value" : "Digital downloads"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597871999880,
+          "stop" : 1597872001849,
+          "duration" : 1969
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597871999953,
+            "stop" : 1597872000455,
+            "duration" : 502
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> xpath: //div[@data-productid='35']/div/a]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify Text with Text",
+        "time" : {
+          "start" : 1597872001896,
+          "stop" : 1597872001896,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actualValue",
+          "value" : "If You Wait (donation)"
+        }, {
+          "name" : "expectedValue",
+          "value" : "If You Wait (donation)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Clear text in price box, on donation song page",
+        "time" : {
+          "start" : 1597872001922,
+          "stop" : 1597872002031,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Add text to field",
+        "time" : {
+          "start" : 1597872002050,
+          "stop" : 1597872002679,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872002096,
+            "stop" : 1597872002599,
+            "duration" : 503
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        }, {
+          "name" : "value",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597872002693,
+          "stop" : 1597872003413,
+          "duration" : 720
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872002769,
+            "stop" : 1597872003272,
+            "duration" : 503
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: input[class = 'button-1 add-to-cart-button']]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify text in element is correct using WebElement",
+        "time" : {
+          "start" : 1597872003428,
+          "stop" : 1597872003473,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> xpath: //*[@id=\"topcartlink\"]/a/span[2]]"
+        }, {
+          "name" : "expectedValue",
+          "value" : "(1)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Clear text in price box, on donation song page",
+        "time" : {
+          "start" : 1597872003490,
+          "stop" : 1597872003553,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Add text to field",
+        "time" : {
+          "start" : 1597872003568,
+          "stop" : 1597872004409,
+          "duration" : 841
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872003625,
+            "stop" : 1597872004132,
+            "duration" : 507
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        }, {
+          "name" : "value",
+          "value" : "100"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597872004447,
+          "stop" : 1597872005126,
+          "duration" : 679
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872004557,
+            "stop" : 1597872005066,
+            "duration" : 509
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: input[class = 'button-1 add-to-cart-button valid']]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify text in element is correct using WebElement",
+        "time" : {
+          "start" : 1597872005140,
+          "stop" : 1597872005189,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> xpath: //*[@id=\"topcartlink\"]/a/span[2]]"
+        }, {
+          "name" : "expectedValue",
+          "value" : "(2)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Clear text in price box, on donation song page",
+        "time" : {
+          "start" : 1597872005200,
+          "stop" : 1597872005262,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Add text to field",
+        "time" : {
+          "start" : 1597872005275,
+          "stop" : 1597872005906,
+          "duration" : 631
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872005316,
+            "stop" : 1597872005819,
+            "duration" : 503
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        }, {
+          "name" : "value",
+          "value" : "0.4"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597872005923,
+          "stop" : 1597872006590,
+          "duration" : 667
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872006004,
+            "stop" : 1597872006509,
+            "duration" : 505
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: input[class = 'button-1 add-to-cart-button valid']]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify presence of Element ",
+        "time" : {
+          "start" : 1597872006615,
+          "stop" : 1597872006659,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #bar-notification > div > p]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Clear text in price box, on donation song page",
+        "time" : {
+          "start" : 1597872006675,
+          "stop" : 1597872006738,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Add text to field",
+        "time" : {
+          "start" : 1597872006745,
+          "stop" : 1597872007379,
+          "duration" : 634
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872006780,
+            "stop" : 1597872007285,
+            "duration" : 505
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #addtocart_35_CustomerEnteredPrice]"
+        }, {
+          "name" : "value",
+          "value" : "100.1"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1597872007393,
+          "stop" : 1597872008034,
+          "duration" : 641
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wait for JS code to be active - 1 second",
+          "time" : {
+            "start" : 1597872007457,
+            "stop" : 1597872007962,
+            "duration" : 505
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: input[class = 'button-1 add-to-cart-button valid']]"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 30,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify presence of Element ",
+      "time" : {
+        "start" : 1597872008051,
+        "stop" : 1597872008092,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (e62b4891efbee32f16e03a308b7405a1)] -> css selector: #bar-notification > div > p]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "ReturnMainPage",
+    "time" : {
+      "start" : 1597872008098,
+      "stop" : 1597872008835,
+      "duration" : 737
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1597872022165,
+      "stop" : 1597872022846,
+      "duration" : 681
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_makeDonationWithDB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test with DB"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.WebProjectDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PRBCB84"
+  }, {
+    "name" : "thread",
+    "value" : "10168@DESKTOP-PRBCB84.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 27,
+        "unknown" : 0,
+        "total" : 41
+      },
+      "items" : [ {
+        "uid" : "d869795aa5729cdb",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/44/allure/#testresult/d869795aa5729cdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597583228268,
+          "stop" : 1597583245303,
+          "duration" : 17035
+        }
+      }, {
+        "uid" : "108504ed69b31dc3",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/43/allure/#testresult/108504ed69b31dc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597576479219,
+          "stop" : 1597576491819,
+          "duration" : 12600
+        }
+      }, {
+        "uid" : "e788bc5b6ab14216",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/42/allure/#testresult/e788bc5b6ab14216",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1597576278695,
+          "stop" : 1597576309478,
+          "duration" : 30783
+        }
+      }, {
+        "uid" : "b2dc3703e5f3551a",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/41/allure/#testresult/b2dc3703e5f3551a",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1597576042079,
+          "stop" : 1597576070577,
+          "duration" : 28498
+        }
+      }, {
+        "uid" : "3541d2a1e168e440",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/40/allure/#testresult/3541d2a1e168e440",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1597575907837,
+          "stop" : 1597575935651,
+          "duration" : 27814
+        }
+      }, {
+        "uid" : "9fafa30ea3ff26d",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/39/allure/#testresult/9fafa30ea3ff26d",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: input[class = 'button-1 add-to-cart-button']' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1597575658026,
+          "stop" : 1597575689110,
+          "duration" : 31084
+        }
+      }, {
+        "uid" : "971acdbd7e71d5d0",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/38/allure/#testresult/971acdbd7e71d5d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597572474606,
+          "stop" : 1597572501820,
+          "duration" : 27214
+        }
+      }, {
+        "uid" : "141dd2a1edd60b5d",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/37/allure/#testresult/141dd2a1edd60b5d",
+        "status" : "broken",
+        "statusDetails" : "Index: 0, Size: 0",
+        "time" : {
+          "start" : 1597572324611,
+          "stop" : 1597572336645,
+          "duration" : 12034
+        }
+      }, {
+        "uid" : "9035efa8424437ec",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/35/allure/#testresult/9035efa8424437ec",
+        "status" : "broken",
+        "statusDetails" : "Index: 0, Size: 0",
+        "time" : {
+          "start" : 1597571842244,
+          "stop" : 1597571853283,
+          "duration" : 11039
+        }
+      }, {
+        "uid" : "6045f6e59b9c5cc7",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/34/allure/#testresult/6045f6e59b9c5cc7",
+        "status" : "broken",
+        "statusDetails" : "Index: 0, Size: 0",
+        "time" : {
+          "start" : 1597571842244,
+          "stop" : 1597571853283,
+          "duration" : 11039
+        }
+      }, {
+        "uid" : "bc06fed856199bba",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/33/allure/#testresult/bc06fed856199bba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597542416388,
+          "stop" : 1597542446095,
+          "duration" : 29707
+        }
+      }, {
+        "uid" : "974ee4270e3208bf",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/32/allure/#testresult/974ee4270e3208bf",
+        "status" : "broken",
+        "statusDetails" : "Index: 3, Size: 3",
+        "time" : {
+          "start" : 1597541934591,
+          "stop" : 1597541961394,
+          "duration" : 26803
+        }
+      }, {
+        "uid" : "aea8e23f1b74104f",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/31/allure/#testresult/aea8e23f1b74104f",
+        "status" : "broken",
+        "statusDetails" : "Index: 0, Size: 0",
+        "time" : {
+          "start" : 1597541679271,
+          "stop" : 1597541691179,
+          "duration" : 11908
+        }
+      }, {
+        "uid" : "1db3a636b1ead0dc",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/30/allure/#testresult/1db3a636b1ead0dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597540938027,
+          "stop" : 1597540965420,
+          "duration" : 27393
+        }
+      }, {
+        "uid" : "9c23ffc3c1b7d505",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/29/allure/#testresult/9c23ffc3c1b7d505",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597540275892,
+          "stop" : 1597540302868,
+          "duration" : 26976
+        }
+      }, {
+        "uid" : "ad02d9ab1e6825c9",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/28/allure/#testresult/ad02d9ab1e6825c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539917316,
+          "stop" : 1597539944014,
+          "duration" : 26698
+        }
+      }, {
+        "uid" : "f754bf03ce9628a4",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/27/allure/#testresult/f754bf03ce9628a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539811750,
+          "stop" : 1597539837556,
+          "duration" : 25806
+        }
+      }, {
+        "uid" : "c76ee8b38d650392",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/26/allure/#testresult/c76ee8b38d650392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597539098570,
+          "stop" : 1597539126323,
+          "duration" : 27753
+        }
+      }, {
+        "uid" : "48267c270bfe679",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/25/allure/#testresult/48267c270bfe679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597340139291,
+          "stop" : 1597340167941,
+          "duration" : 28650
+        }
+      }, {
+        "uid" : "fa731ab433820b59",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20DB/24/allure/#testresult/fa731ab433820b59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597003401270,
+          "stop" : 1597003425298,
+          "duration" : 24028
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66faecc4d76b0063.json",
+  "parameterValues" : [ "web" ]
+}

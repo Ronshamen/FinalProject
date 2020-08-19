@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="94431" started-at="2020-08-19T21:09:10Z" finished-at="2020-08-19T21:10:44Z">
+  <suite name="Suite" duration-ms="53864" started-at="2020-08-19T21:19:28Z" finished-at="2020-08-19T21:20:22Z">
     <groups>
     </groups>
-    <test name="Web Test" duration-ms="94431" started-at="2020-08-19T21:09:10Z" finished-at="2020-08-19T21:10:44Z">
-      <class name="ErrorHandlingTests.WebEHTest">
-        <test-method status="PASS" signature="StartSession(java.lang.String)[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="StartSession" is-config="true" duration-ms="9019" started-at="2020-08-19T21:10:18Z" finished-at="2020-08-19T21:10:27Z">
+    <test name="Web Test with DB" duration-ms="53864" started-at="2020-08-19T21:19:28Z" finished-at="2020-08-19T21:20:22Z">
+      <class name="SanityTests.WebProjectDB">
+        <test-method status="PASS" signature="StartSession(java.lang.String)[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="StartSession" is-config="true" duration-ms="12269" started-at="2020-08-19T21:19:29Z" finished-at="2020-08-19T21:19:41Z">
           <params>
             <param index="0">
               <value>
@@ -18,76 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartSession -->
-        <test-method status="PASS" signature="test01_makeErrorInDonation()[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="test01_makeErrorInDonation" duration-ms="10583" started-at="2020-08-19T21:10:27Z" description="Test01: Make donation using amount out of boundary" finished-at="2020-08-19T21:10:37Z">
+        <test-method status="PASS" signature="test01_RegisterWithDB()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="test01_RegisterWithDB" duration-ms="15033" started-at="2020-08-19T21:19:41Z" description="Test01: Register to WebSite with DB" finished-at="2020-08-19T21:19:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01_makeErrorInDonation -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="ReturnMainPage" is-config="true" duration-ms="1798" started-at="2020-08-19T21:10:37Z" finished-at="2020-08-19T21:10:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="test02_Alert_Window()[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="test02_Alert_Window" duration-ms="4069" started-at="2020-08-19T21:10:39Z" description="Test02: Check out w/out accepting term &amp; conditions" finished-at="2020-08-19T21:10:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02_Alert_Window -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="ReturnMainPage" is-config="true" duration-ms="688" started-at="2020-08-19T21:10:43Z" finished-at="2020-08-19T21:10:44Z">
+        </test-method> <!-- test01_RegisterWithDB -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="ReturnMainPage" is-config="true" duration-ms="566" started-at="2020-08-19T21:19:56Z" finished-at="2020-08-19T21:19:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:ErrorHandlingTests.WebEHTest@172ca72b]" name="CloseSession" is-config="true" duration-ms="630" started-at="2020-08-19T21:10:44Z" finished-at="2020-08-19T21:10:44Z">
+        <test-method status="PASS" signature="test02_makeDonationWithDB()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="test02_makeDonationWithDB" duration-ms="10870" started-at="2020-08-19T21:19:57Z" description="Test02: Make donation using sums from DB" finished-at="2020-08-19T21:20:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseSession -->
-      </class> <!-- ErrorHandlingTests.WebEHTest -->
-      <class name="SanityTests.WebProjectTests">
-        <test-method status="PASS" signature="StartSession(java.lang.String)[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="StartSession" is-config="true" duration-ms="12655" started-at="2020-08-19T21:09:10Z" finished-at="2020-08-19T21:09:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[web]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StartSession -->
-        <test-method status="PASS" signature="test01_Register()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="test01_Register" duration-ms="13606" started-at="2020-08-19T21:09:23Z" description="Test01: Register to WebSite" finished-at="2020-08-19T21:09:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test01_Register -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="ReturnMainPage" is-config="true" duration-ms="665" started-at="2020-08-19T21:09:37Z" finished-at="2020-08-19T21:09:37Z">
+        </test-method> <!-- test02_makeDonationWithDB -->
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="ReturnMainPage" is-config="true" duration-ms="737" started-at="2020-08-19T21:20:08Z" finished-at="2020-08-19T21:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="test02_makeDonation()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="test02_makeDonation" duration-ms="6073" started-at="2020-08-19T21:09:37Z" description="Test02: Make donation, should show 1 items in cart" finished-at="2020-08-19T21:09:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02_makeDonation -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="ReturnMainPage" is-config="true" duration-ms="682" started-at="2020-08-19T21:09:43Z" finished-at="2020-08-19T21:09:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="test03_CheckOut()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="test03_CheckOut" duration-ms="19762" started-at="2020-08-19T21:09:44Z" description="Test03: Check Out" finished-at="2020-08-19T21:10:04Z">
+        <test-method status="PASS" signature="test03_CheckOut()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="test03_CheckOut" duration-ms="10553" started-at="2020-08-19T21:20:08Z" description="Test03: Check Out using DB" finished-at="2020-08-19T21:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03_CheckOut -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="ReturnMainPage" is-config="true" duration-ms="722" started-at="2020-08-19T21:10:04Z" finished-at="2020-08-19T21:10:05Z">
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="ReturnMainPage" is-config="true" duration-ms="689" started-at="2020-08-19T21:20:19Z" finished-at="2020-08-19T21:20:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="test04_verify_logo()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="test04_verify_logo" duration-ms="1465" started-at="2020-08-19T21:10:05Z" description="Test04: Verify Logo" finished-at="2020-08-19T21:10:06Z">
+        <test-method status="PASS" signature="test04_verify_logo()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="test04_verify_logo" duration-ms="1475" started-at="2020-08-19T21:20:20Z" description="Test04: Verify Logo" finished-at="2020-08-19T21:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_verify_logo -->
-        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="ReturnMainPage" is-config="true" duration-ms="10882" started-at="2020-08-19T21:10:06Z" finished-at="2020-08-19T21:10:17Z">
+        <test-method status="PASS" signature="ReturnMainPage()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="ReturnMainPage" is-config="true" duration-ms="592" started-at="2020-08-19T21:20:21Z" finished-at="2020-08-19T21:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnMainPage -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:SanityTests.WebProjectTests@1c98290c]" name="CloseSession" is-config="true" duration-ms="676" started-at="2020-08-19T21:10:17Z" finished-at="2020-08-19T21:10:18Z">
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:SanityTests.WebProjectDB@1a1da881]" name="CloseSession" is-config="true" duration-ms="682" started-at="2020-08-19T21:20:22Z" finished-at="2020-08-19T21:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSession -->
-      </class> <!-- SanityTests.WebProjectTests -->
-    </test> <!-- Web Test -->
+      </class> <!-- SanityTests.WebProjectDB -->
+    </test> <!-- Web Test with DB -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,60 +1,40 @@
 [ {
-  "uid" : "8217bc8dd929970a",
-  "name" : "Test03: Check Out",
+  "uid" : "dfcf757980b08c00",
+  "name" : "Test03: Check Out using DB",
   "time" : {
-    "start" : 1597871384662,
-    "stop" : 1597871404420,
-    "duration" : 19758
+    "start" : 1597872008843,
+    "stop" : 1597872019392,
+    "duration" : 10549
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d10711e735f45eae",
-  "name" : "Test01: Register to WebSite",
+  "uid" : "edb42051c6f3662a",
+  "name" : "Test01: Register to WebSite with DB",
   "time" : {
-    "start" : 1597871363362,
-    "stop" : 1597871376890,
-    "duration" : 13528
+    "start" : 1597871981348,
+    "stop" : 1597871996349,
+    "duration" : 15001
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f4a4f581dd07ffc0",
+  "uid" : "4ed10c6e3133ddda",
   "name" : "Test04: Verify Logo",
   "time" : {
-    "start" : 1597871405153,
-    "stop" : 1597871406620,
-    "duration" : 1467
+    "start" : 1597872020087,
+    "stop" : 1597872021561,
+    "duration" : 1474
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "92c12420b94b6c24",
-  "name" : "Test01: Make donation using amount out of boundary",
+  "uid" : "66faecc4d76b0063",
+  "name" : "Test02: Make donation using sums from DB",
   "time" : {
-    "start" : 1597871427205,
-    "stop" : 1597871437784,
-    "duration" : 10579
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "76bb3e9381819bac",
-  "name" : "Test02: Make donation, should show 1 items in cart",
-  "time" : {
-    "start" : 1597871377904,
-    "stop" : 1597871383968,
-    "duration" : 6064
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30773283817b84c1",
-  "name" : "Test02: Check out w/out accepting term & conditions",
-  "time" : {
-    "start" : 1597871439595,
-    "stop" : 1597871443659,
-    "duration" : 4064
+    "start" : 1597871997224,
+    "stop" : 1597872008092,
+    "duration" : 10868
   },
   "status" : "passed",
   "severity" : "normal"

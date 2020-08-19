@@ -2,90 +2,60 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "SanityTests.WebProjectTests",
+    "name" : "SanityTests.WebProjectDB",
     "children" : [ {
-      "name" : "test01_Register",
-      "uid" : "d10711e735f45eae",
-      "parentUid" : "32271da84aa028ce3a5fbd1ce9ffea6d",
+      "name" : "test01_RegisterWithDB",
+      "uid" : "edb42051c6f3662a",
+      "parentUid" : "35585f59e5a765d12e51ae9131662e95",
       "status" : "passed",
       "time" : {
-        "start" : 1597871363362,
-        "stop" : 1597871376890,
-        "duration" : 13528
+        "start" : 1597871981348,
+        "stop" : 1597871996349,
+        "duration" : 15001
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "web" ]
     }, {
-      "name" : "test02_makeDonation",
-      "uid" : "76bb3e9381819bac",
-      "parentUid" : "32271da84aa028ce3a5fbd1ce9ffea6d",
+      "name" : "test02_makeDonationWithDB",
+      "uid" : "66faecc4d76b0063",
+      "parentUid" : "35585f59e5a765d12e51ae9131662e95",
       "status" : "passed",
       "time" : {
-        "start" : 1597871377904,
-        "stop" : 1597871383968,
-        "duration" : 6064
+        "start" : 1597871997224,
+        "stop" : 1597872008092,
+        "duration" : 10868
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "web" ]
     }, {
       "name" : "test03_CheckOut",
-      "uid" : "8217bc8dd929970a",
-      "parentUid" : "32271da84aa028ce3a5fbd1ce9ffea6d",
+      "uid" : "dfcf757980b08c00",
+      "parentUid" : "35585f59e5a765d12e51ae9131662e95",
       "status" : "passed",
       "time" : {
-        "start" : 1597871384662,
-        "stop" : 1597871404420,
-        "duration" : 19758
+        "start" : 1597872008843,
+        "stop" : 1597872019392,
+        "duration" : 10549
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "web" ]
     }, {
       "name" : "test04_verify_logo",
-      "uid" : "f4a4f581dd07ffc0",
-      "parentUid" : "32271da84aa028ce3a5fbd1ce9ffea6d",
+      "uid" : "4ed10c6e3133ddda",
+      "parentUid" : "35585f59e5a765d12e51ae9131662e95",
       "status" : "passed",
       "time" : {
-        "start" : 1597871405153,
-        "stop" : 1597871406620,
-        "duration" : 1467
+        "start" : 1597872020087,
+        "stop" : 1597872021561,
+        "duration" : 1474
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "web" ]
     } ],
-    "uid" : "SanityTests.WebProjectTests"
-  }, {
-    "name" : "ErrorHandlingTests.WebEHTest",
-    "children" : [ {
-      "name" : "test01_makeErrorInDonation",
-      "uid" : "92c12420b94b6c24",
-      "parentUid" : "2b165ecb7c7306830702f2e5028b00dc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597871427205,
-        "stop" : 1597871437784,
-        "duration" : 10579
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test02_Alert_Window",
-      "uid" : "30773283817b84c1",
-      "parentUid" : "2b165ecb7c7306830702f2e5028b00dc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597871439595,
-        "stop" : 1597871443659,
-        "duration" : 4064
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    } ],
-    "uid" : "ErrorHandlingTests.WebEHTest"
+    "uid" : "SanityTests.WebProjectDB"
   } ]
 }

@@ -65,11 +65,12 @@ and confirm payment completed.
 
 #### test -> SanityTests -> WebProjectDB
 
-* Same as SanityTests.WebProjectTests only this time credentials are retrieved from MySql DataBase.
- 1. Register to nopComerce.com using credentials from .xml file
+* About the same as SanityTests.WebProjectTests only this time credentials are retrieved from MySql DataBase.
+ 1. Register to nopComerce.com using credentials from MySql DB
  and verify registration.
  2. Go to "Digital downloads" page, Choose song called "if you wait" and push a donation.
  Then add to cart and verify item was added.
- 3. Go to shopping cart, Check out using billing info from .xml file
- and confirm payment completed.
- 4. Take picture of logo and compare to original logo saved in file directory.
+ 3. Try adding Values out of defined boundaries.  
+ 4. Go to shopping cart, Check out using billing info from MySql DB
+ and confirm Payment page.
+ 5. Take picture of logo and compare to original logo saved in file directory.

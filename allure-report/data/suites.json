@@ -4,95 +4,65 @@
   "children" : [ {
     "name" : "Suite",
     "children" : [ {
-      "name" : "Web Test",
+      "name" : "Web Test with DB",
       "children" : [ {
-        "name" : "SanityTests.WebProjectTests",
+        "name" : "SanityTests.WebProjectDB",
         "children" : [ {
-          "name" : "Test01: Register to WebSite",
-          "uid" : "d10711e735f45eae",
-          "parentUid" : "8842113f38604c3a35a96ba42acc16d1",
+          "name" : "Test01: Register to WebSite with DB",
+          "uid" : "edb42051c6f3662a",
+          "parentUid" : "605eb4d2b39dacb755c04226bfbce181",
           "status" : "passed",
           "time" : {
-            "start" : 1597871363362,
-            "stop" : 1597871376890,
-            "duration" : 13528
+            "start" : 1597871981348,
+            "stop" : 1597871996349,
+            "duration" : 15001
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
-          "name" : "Test02: Make donation, should show 1 items in cart",
-          "uid" : "76bb3e9381819bac",
-          "parentUid" : "8842113f38604c3a35a96ba42acc16d1",
+          "name" : "Test02: Make donation using sums from DB",
+          "uid" : "66faecc4d76b0063",
+          "parentUid" : "605eb4d2b39dacb755c04226bfbce181",
           "status" : "passed",
           "time" : {
-            "start" : 1597871377904,
-            "stop" : 1597871383968,
-            "duration" : 6064
+            "start" : 1597871997224,
+            "stop" : 1597872008092,
+            "duration" : 10868
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
-          "name" : "Test03: Check Out",
-          "uid" : "8217bc8dd929970a",
-          "parentUid" : "8842113f38604c3a35a96ba42acc16d1",
+          "name" : "Test03: Check Out using DB",
+          "uid" : "dfcf757980b08c00",
+          "parentUid" : "605eb4d2b39dacb755c04226bfbce181",
           "status" : "passed",
           "time" : {
-            "start" : 1597871384662,
-            "stop" : 1597871404420,
-            "duration" : 19758
+            "start" : 1597872008843,
+            "stop" : 1597872019392,
+            "duration" : 10549
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Test04: Verify Logo",
-          "uid" : "f4a4f581dd07ffc0",
-          "parentUid" : "8842113f38604c3a35a96ba42acc16d1",
+          "uid" : "4ed10c6e3133ddda",
+          "parentUid" : "605eb4d2b39dacb755c04226bfbce181",
           "status" : "passed",
           "time" : {
-            "start" : 1597871405153,
-            "stop" : 1597871406620,
-            "duration" : 1467
+            "start" : 1597872020087,
+            "stop" : 1597872021561,
+            "duration" : 1474
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         } ],
-        "uid" : "8842113f38604c3a35a96ba42acc16d1"
-      }, {
-        "name" : "ErrorHandlingTests.WebEHTest",
-        "children" : [ {
-          "name" : "Test01: Make donation using amount out of boundary",
-          "uid" : "92c12420b94b6c24",
-          "parentUid" : "f57de3ed5a4ff141abe1030654ad7eeb",
-          "status" : "passed",
-          "time" : {
-            "start" : 1597871427205,
-            "stop" : 1597871437784,
-            "duration" : 10579
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "web" ]
-        }, {
-          "name" : "Test02: Check out w/out accepting term & conditions",
-          "uid" : "30773283817b84c1",
-          "parentUid" : "f57de3ed5a4ff141abe1030654ad7eeb",
-          "status" : "passed",
-          "time" : {
-            "start" : 1597871439595,
-            "stop" : 1597871443659,
-            "duration" : 4064
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "web" ]
-        } ],
-        "uid" : "f57de3ed5a4ff141abe1030654ad7eeb"
+        "uid" : "605eb4d2b39dacb755c04226bfbce181"
       } ],
-      "uid" : "907fcd56a7e556afc5b2731f94e172c4"
+      "uid" : "2875878b4353ef1dc38ab10207a2f1c8"
     } ],
     "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
   } ]
