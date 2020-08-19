@@ -1,4 +1,4 @@
-# MY FINAL PROJECT in 
+# MY FINAL PROJECT (Ron Sarid):
 
 ## AUTOMATION TESTING
 
@@ -15,7 +15,7 @@ Reports are sent to Allure Reports.
 
 ## These are the Tests I created for each Platform:
 
-###1. Web  
+### 1. Web  
 #### test -> SanityTest -> WebProjectTest
 1. Register to nopComerce.com using credentials from .xml file
 and verify registration.
