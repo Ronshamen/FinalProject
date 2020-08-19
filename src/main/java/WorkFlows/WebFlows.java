@@ -12,7 +12,7 @@ public class WebFlows extends CommonOps
     public static void Register()
     {
         UIActions.click(nopCommerceLogIn.btn_register);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(nopCommerceLogIn.btn_male);
         UIActions.UpdateTxt(nopCommerceLogIn.txt_UserFirstName, getData("UserFirst"));
         UIActions.UpdateTxt(nopCommerceLogIn.txt_UserLastName, getData("UserLast"));
@@ -25,7 +25,7 @@ public class WebFlows extends CommonOps
         UIActions.UpdateTxt(nopCommerceLogIn.txt_Password, getData("PassWord"));
         UIActions.UpdateTxt(nopCommerceLogIn.vrfy_Password, getData("PassWord"));
         UIActions.click(nopCommerceLogIn.btn_endRegister);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(nopCommerceLogIn.btn_Continue);
 
     }
@@ -36,26 +36,26 @@ public class WebFlows extends CommonOps
     {
         UIActions.click(ifyouwait.btn_DigitalDownloads);
         Verifications.textOnPage(ifyouwait.txt_DigitalDownloads.getText(), getData("Page_Digital"));
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(ifyouwait.btn_IfYouWait);
         Verifications.textOnPage(ifyouwait.txt_IfYouWait.getText(), getData("Page_IfYouWait"));
         UIActions.clearTextBox(ifyouwait.input_donation);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.UpdateTxt(ifyouwait.input_donation, getData("CorrectAmount"));
         UIActions.click(ifyouwait.btn_addToCart);
-        UIActions.Standby();
+//        UIActions.Standby();
     }
 
     @Step("Check out")
     public static void Checkout()
     {
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.MouseHoverElements(shoppingCart.btn_cart, shoppingCart.btn_goTo_cart);
         Verifications.textOnPage(shoppingCart.txt_cart_verify.getText(), getData("Page_ShopCart"));
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(shoppingCart.radio_accept_terms);
         UIActions.click(shoppingCart.btn_check_out);
-        UIActions.Standby();
+//        UIActions.Standby();
         Verifications.textOnPage(Checkout.txt_CheckOut_verify.getText(),getData("Page_CheckOut"));
         Verifications.textOnPage(Checkout.input_firsN_verify.getAttribute("value"), getData("UserFirst"));
         Verifications.textOnPage(Checkout.input_lastN_verify.getAttribute("value"), getData("UserLast"));
@@ -65,7 +65,7 @@ public class WebFlows extends CommonOps
         UIActions.UpdateTxt(Checkout.input_address, getData("Address"));
         UIActions.UpdateTxt(Checkout.input_Zip, getData("Zip"));
         UIActions.UpdateTxt(Checkout.input_phone, getData("Phone"));
-        UIActions.Standby();
+//        UIActions.Standby();
     }
 
     @Step("Make payment")
@@ -73,10 +73,10 @@ public class WebFlows extends CommonOps
     {
 
         UIActions.click(Checkout.btn_continue);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(Checkout.btn_CC);
         UIActions.click(Checkout.btn_continue2);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.UpdateDropdown(payment.drpdwn_CCtype, getData("CardType"));
         UIActions.UpdateTxt(payment.Cardholder_name, getData("UserFirst") + " " + getData("UserLast"));
         UIActions.UpdateTxt(payment.Card_Number, getData("CardNo"));
@@ -84,7 +84,7 @@ public class WebFlows extends CommonOps
         UIActions.UpdateDropdown(payment.drpdwn_exp_year, getData("ExpYear"));
         UIActions.UpdateTxt(payment.input_CVV, getData("CVV"));
         UIActions.click(payment.btn_cont_CC);
-        UIActions.Standby();
+//        UIActions.Standby();
         UIActions.click(payment.btn_confirm);
     }
 
