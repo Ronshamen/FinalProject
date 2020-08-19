@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Automation\Project\FinalProject\ExecuteWebWithDB.xml</span>
+                    <span>C:\Automation\Project\FinalProject\ExecuteWeb.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +102,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectDB" hash-for-method="test01_RegisterWithDB">test01_RegisterWithDB</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectTests" hash-for-method="test01_Register">test01_Register</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectDB" hash-for-method="test02_makeDonationWithDB">test02_makeDonationWithDB</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ErrorHandlingTests.WebEHTest" hash-for-method="test01_makeErrorInDonation">test01_makeErrorInDonation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectDB" hash-for-method="test03_CheckOut">test03_CheckOut</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ErrorHandlingTests.WebEHTest" hash-for-method="test02_Alert_Window">test02_Alert_Window</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectDB" hash-for-method="test04_verify_logo">test04_verify_logo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectTests" hash-for-method="test02_makeDonation">test02_makeDonation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectTests" hash-for-method="test03_CheckOut">test03_CheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="SanityTests.WebProjectTests" hash-for-method="test04_verify_logo">test04_verify_logo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -135,25 +145,25 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SanityTests.WebProjectDB</span>
+              <span class="class-name">SanityTests.WebProjectTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test01_RegisterWithDB">
-                  </a> <!-- test01_RegisterWithDB -->
-                  <span class="method-name">test01_RegisterWithDB</span>
+                  <a name="test01_Register">
+                  </a> <!-- test01_Register -->
+                  <span class="method-name">test01_Register</span>
                   <em>
-(Test01: Register to WebSite with DB)                  </em>
+(Test01: Register to WebSite)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test02_makeDonationWithDB">
-                  </a> <!-- test02_makeDonationWithDB -->
-                  <span class="method-name">test02_makeDonationWithDB</span>
+                  <a name="test02_makeDonation">
+                  </a> <!-- test02_makeDonation -->
+                  <span class="method-name">test02_makeDonation</span>
                   <em>
-(Test02: Make donation using sums from DB)                  </em>
+(Test02: Make donation, should show 1 items in cart)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -162,7 +172,7 @@
                   </a> <!-- test03_CheckOut -->
                   <span class="method-name">test03_CheckOut</span>
                   <em>
-(Test03: Check Out using DB)                  </em>
+(Test03: Check Out)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -176,22 +186,49 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ErrorHandlingTests.WebEHTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01_makeErrorInDonation">
+                  </a> <!-- test01_makeErrorInDonation -->
+                  <span class="method-name">test01_makeErrorInDonation</span>
+                  <em>
+(Test01: Make donation using amount out of boundary)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test02_Alert_Window">
+                  </a> <!-- test02_Alert_Window -->
+                  <span class="method-name">test02_Alert_Window</span>
+                  <em>
+(Test02: Check out w/out accepting term & conditions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Automation\Project\FinalProject\ExecuteWebWithDB.xml</span>
+            <span class="header-content">C:\Automation\Project\FinalProject\ExecuteWeb.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Web Test with DB&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Web Test&quot;&gt;
     &lt;parameter name=&quot;PlatformName&quot; value=&quot;web&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SanityTests.WebProjectDB&quot;/&gt;
+      &lt;class name=&quot;SanityTests.WebProjectTests&quot;/&gt;
+      &lt;class name=&quot;ErrorHandlingTests.WebEHTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Web Test with DB --&gt;
+  &lt;/test&gt; &lt;!-- Web Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,7 +240,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Web Test with DB (1 class)</span>
+                <span class="test-name">Web Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,28 +266,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test02_makeDonationWithDB')
-data.setCell(0, 2, 'SanityTests.WebProjectDB')
-data.setCell(0, 3, 17037);
+data.setCell(0, 1, 'test03_CheckOut')
+data.setCell(0, 2, 'SanityTests.WebProjectTests')
+data.setCell(0, 3, 19762);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test03_CheckOut')
-data.setCell(1, 2, 'SanityTests.WebProjectDB')
-data.setCell(1, 3, 15296);
+data.setCell(1, 1, 'test01_Register')
+data.setCell(1, 2, 'SanityTests.WebProjectTests')
+data.setCell(1, 3, 13606);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test01_RegisterWithDB')
-data.setCell(2, 2, 'SanityTests.WebProjectDB')
-data.setCell(2, 3, 13047);
+data.setCell(2, 1, 'test01_makeErrorInDonation')
+data.setCell(2, 2, 'ErrorHandlingTests.WebEHTest')
+data.setCell(2, 3, 10583);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test04_verify_logo')
-data.setCell(3, 2, 'SanityTests.WebProjectDB')
-data.setCell(3, 3, 1528);
+data.setCell(3, 1, 'test02_makeDonation')
+data.setCell(3, 2, 'SanityTests.WebProjectTests')
+data.setCell(3, 3, 6073);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test02_Alert_Window')
+data.setCell(4, 2, 'ErrorHandlingTests.WebEHTest')
+data.setCell(4, 3, 4069);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test04_verify_logo')
+data.setCell(5, 2, 'SanityTests.WebProjectTests')
+data.setCell(5, 3, 1465);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -276,46 +321,73 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SanityTests.WebProjectDB</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">SanityTests.WebProjectTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">StartSession(web)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">test01_RegisterWithDB</span>
-                <span class="method-start">12812 ms</span>
+                <span class="method-name">test01_Register</span>
+                <span class="method-start">12675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ReturnMainPage</span>
-                <span class="method-start">26110 ms</span>
+                <span class="method-start">26593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">test02_makeDonationWithDB</span>
-                <span class="method-start">27895 ms</span>
+                <span class="method-name">test02_makeDonation</span>
+                <span class="method-start">27290 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ReturnMainPage</span>
-                <span class="method-start">44939 ms</span>
+                <span class="method-start">33368 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">test03_CheckOut</span>
-                <span class="method-start">47187 ms</span>
+                <span class="method-start">34053 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ReturnMainPage</span>
-                <span class="method-start">62486 ms</span>
+                <span class="method-start">53820 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">test04_verify_logo</span>
-                <span class="method-start">63273 ms</span>
+                <span class="method-start">54546 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ReturnMainPage</span>
-                <span class="method-start">64804 ms</span>
+                <span class="method-start">56016 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">CloseSession</span>
-                <span class="method-start">65524 ms</span>
+                <span class="method-start">66899 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ErrorHandlingTests.WebEHTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartSession(web)</span>
+                <span class="method-start">67577 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test01_makeErrorInDonation</span>
+                <span class="method-start">76596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnMainPage</span>
+                <span class="method-start">87184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test02_Alert_Window</span>
+                <span class="method-start">88985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnMainPage</span>
+                <span class="method-start">93058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">93748 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

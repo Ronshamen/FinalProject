@@ -37,7 +37,6 @@ public class WebProjectTests extends CommonOps
         WebFlows.Checkout();
         WebFlows.MakePayment();
         Verifications.textInElement(payment.txt_order_success, getData("Order_Complete"));
-        UIActions.Standby();
         UIActions.click(payment.btn_Continue_order_complete);
     }
 

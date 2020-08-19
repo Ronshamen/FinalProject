@@ -2,12 +2,14 @@ package Extentions;
 
 
 import ProjectUtilities.CommonOps;
+import com.google.common.util.concurrent.Uninterruptibles;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class UIActions extends CommonOps
 
@@ -17,6 +19,7 @@ public class UIActions extends CommonOps
     {
         if(Platform.equalsIgnoreCase("web"))
             wait.until(ExpectedConditions.elementToBeClickable(elem));
+        Standby();
         elem.click();
     }
 
@@ -25,6 +28,7 @@ public class UIActions extends CommonOps
     {
         if(Platform.equalsIgnoreCase("web"))
             wait.until(ExpectedConditions.visibilityOf(elem));
+        Standby();
         elem.sendKeys(value);
     }
 
@@ -43,22 +47,15 @@ public class UIActions extends CommonOps
         if(Platform.equalsIgnoreCase("web"))
             wait.until(ExpectedConditions.visibilityOf(elem1));
         action.moveToElement(elem1).build().perform();
-            try {
-             Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        Standby();
+        Standby();
         action.moveToElement(elem2).click().build().perform();
     }
 
     @Step("wait for JS code to be active - 1 second")
     public static void Standby()
         {
-            try {
-                Thread.sleep(Long.parseLong(getData("sleep")));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            Uninterruptibles.sleepUninterruptibly(Long.parseLong(getData("sleep")), TimeUnit.MILLISECONDS);
         }
 
 

@@ -4,14 +4,14 @@
     <!--timeout-->
     <TimeOut>5</TimeOut>
     <!--sleep-->
-    <sleep>1500</sleep>
+    <sleep>500</sleep>
 
 
     <!--Web Credentials-->
     <!--Registration info-->
     <UserFirst>ron</UserFirst>
     <UserLast>sarid</UserLast>
-    <E_mail>wzeo@dvlhx.com</E_mail>
+    <E_mail>zxev@dxlnshx.com</E_mail>
     <PassWord>123456</PassWord>
     <!--Billing info-->
     <Country>Israel</Country>

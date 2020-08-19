@@ -15,7 +15,6 @@ public class DBWebFlows extends CommonOps {
     {
         List<String> cred = DBActions.getCredentials(getData("Cred_login_quarry"));
         UIActions.click(nopCommerceLogIn.btn_register);
-        UIActions.Standby();
         UIActions.click(nopCommerceLogIn.btn_male);
         UIActions.UpdateTxt(nopCommerceLogIn.txt_UserFirstName, cred.get(0));
         UIActions.UpdateTxt(nopCommerceLogIn.txt_UserLastName, cred.get(1));
@@ -28,7 +27,6 @@ public class DBWebFlows extends CommonOps {
         UIActions.UpdateTxt(nopCommerceLogIn.txt_Password, cred.get(3));
         UIActions.UpdateTxt(nopCommerceLogIn.vrfy_Password, cred.get(3));
         UIActions.click(nopCommerceLogIn.btn_endRegister);
-        UIActions.Standby();
         UIActions.click(nopCommerceLogIn.btn_Continue);
 
     }
@@ -38,25 +36,20 @@ public class DBWebFlows extends CommonOps {
     {
         List<String> cred = DBActions.getDonation(getData("Donation_quarry"));
         UIActions.click(ifyouwait.btn_DigitalDownloads);
-        UIActions.Standby();
         Verifications.textOnPage(ifyouwait.txt_DigitalDownloads.getText(), getData("Page_Digital"));
         UIActions.click(ifyouwait.btn_IfYouWait);
-        UIActions.Standby();
         Verifications.textOnPage(ifyouwait.txt_IfYouWait.getText(), getData("Page_IfYouWait"));
         UIActions.clearTextBox(ifyouwait.input_donation);
         UIActions.UpdateTxt(ifyouwait.input_donation, cred.get(0));
         UIActions.click(ifyouwait.btn_addToCart);
-        UIActions.Standby();
         Verifications.textInElement(ifyouwait.btn_cart, "(1)");
         UIActions.clearTextBox(ifyouwait.input_donation);
         UIActions.UpdateTxt(ifyouwait.input_donation, cred.get(1));
         UIActions.click(ifyouwait.btn_addCart_2nd);
-        UIActions.Standby();
         Verifications.textInElement(ifyouwait.btn_cart, "(2)");
         UIActions.clearTextBox(ifyouwait.input_donation);
         UIActions.UpdateTxt(ifyouwait.input_donation, cred.get(2));
         UIActions.click(ifyouwait.btn_addCart_2nd);
-        UIActions.Standby();
         Verifications.IsElementPresent(ifyouwait.Error_Notif);
         UIActions.clearTextBox(ifyouwait.input_donation);
         UIActions.UpdateTxt(ifyouwait.input_donation, cred.get(3));
@@ -67,15 +60,11 @@ public class DBWebFlows extends CommonOps {
     @Step("CheckOut using credentials from DB")
     public static void CheckoutDB()
     {
-        UIActions.Standby();
         List<String> cred = DBActions.getCredentials(getData("Cred_CheckOut_quarry"));
         UIActions.MouseHoverElements(shoppingCart.btn_cart, shoppingCart.btn_goTo_cart);
-        UIActions.Standby();
         Verifications.textOnPage(shoppingCart.txt_cart_verify.getText(), getData("Page_ShopCart"));
-        UIActions.Standby();
         UIActions.click(shoppingCart.radio_accept_terms);
         UIActions.click(shoppingCart.btn_check_out);
-        UIActions.Standby();
         Verifications.textOnPage(Checkout.txt_CheckOut_verify.getText(), getData("Page_CheckOut"));
         UIActions.UpdateDropdown(Checkout.dropDown_country, cred.get(0));
         UIActions.UpdateTxt(Checkout.input_city, cred.get(1));
@@ -83,7 +72,6 @@ public class DBWebFlows extends CommonOps {
         UIActions.UpdateTxt(Checkout.input_Zip, cred.get(3));
         UIActions.UpdateTxt(Checkout.input_phone, cred.get(4));
         UIActions.click(Checkout.btn_continue);
-        UIActions.Standby();
     }
 
 }
